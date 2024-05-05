@@ -35,7 +35,7 @@
    papirus-folders -C black
    ```
 
-05. Install this kvantum theme. https://github.com/GabePoel/KvLibadwaita
+05. Install [this](https://github.com/GabePoel/KvLibadwaita) kvantum theme.
    ```bash
    git clone https://github.com/GabePoel/KvLibadwaita.git && cd KvLibadwaita
    ```
