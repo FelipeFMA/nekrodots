@@ -1,0 +1,26 @@
+#
+# ██╗    ██╗ ██████╗ ███████╗██╗
+# ██║    ██║██╔═══██╗██╔════╝██║
+# ██║ █╗ ██║██║   ██║█████╗  ██║
+# ██║███╗██║██║   ██║██╔══╝  ██║
+# ╚███╔███╔╝╚██████╔╝██║     ██║
+#  ╚══╝╚══╝  ╚═════╝ ╚═╝     ╚═╝
+#
+# Wofi Config File by Arfan Zubi
+# Translated by Felipe Avelar
+
+show=drun
+width=30%
+height=65%
+prompt=Pesquisar...
+normal_window=true
+location=center
+gtk-dark=true
+allow_images=true
+image_size=35
+insensitive=true
+allow_markup=true
+no_actions=true
+orientation=vertical
+halign=fill
+content_halign=fill
