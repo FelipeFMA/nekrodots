@@ -51,19 +51,14 @@
    sudo systemctl enable --now bluetooth
    ```
 
-07. Install polybar:
-   ```bash
-   yay -S polybar
-   ```
-
-08. Install fonts.
+07. Install fonts.
    ```bash
    yay -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra otf-font-awesome ttf-nerd-fonts-symbols
    ```
 
-09. Put the config files in ~/.config
+08. Put the config files in ~/.config
 
-10. Edit ~/.config/hypr/hyprpaper.conf to set up the wallpaper.
+09. Edit ~/.config/hypr/hyprpaper.conf to set up the wallpaper.
 
 **You're done!**
 
