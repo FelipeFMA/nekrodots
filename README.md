@@ -30,18 +30,12 @@
    yay -S alacritty waybar wofi qt5ct qt6ct nwg-look adw-gtk3 kvantum kvantum-qt5 appimagelauncher-bin spotify-launcher vlc unzip unrar upscayl-bin thunar thunar-archive-plugin thunar-volman swaync steam spotify-launcher slurp screen reflector qbittorrent polkit-gnome pavucontrol papirus-icon-theme papirus-folders openrgb localsend-bin kolourpaint hyprpicker hyprpaper gnome-disk-utility git gimp fastfetch firefox breeze-icons bluez bluez-libs bluez-utils blueman wl-clipboard xdg-desktop-portal-hyprland
    ```
 
-04. Install optimus-manager for managing GPUs and nano for editing text:
-   ```bash
-   yay -S optimus-manager nano
-   ```
-   - Reboot, add `startup_mode=nvidia` to `/usr/share/optimus-manager.conf`, and run `optimus-manager --switch nvidia`
-
-05. Set papirus-colors to black.
+04. Set papirus-colors to black.
    ```bash
    papirus-folders -C black
    ```
 
-06. Install this kvantum theme. https://github.com/GabePoel/KvLibadwaita
+05. Install this kvantum theme. https://github.com/GabePoel/KvLibadwaita
    ```bash
    git clone https://github.com/GabePoel/KvLibadwaita.git && cd KvLibadwaita
    ```
@@ -52,24 +46,24 @@
    sudo ./install.sh
    ```
 
-07. Enable bluetooth.
+06. Enable bluetooth.
    ```bash
    sudo systemctl enable --now bluetooth
    ```
 
-08. Install polybar:
+07. Install polybar:
    ```bash
    yay -S polybar
    ```
 
-09. Install fonts.
+08. Install fonts.
    ```bash
    yay -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra otf-font-awesome ttf-nerd-fonts-symbols
    ```
 
-10. Put the config files in ~/.config
+09. Put the config files in ~/.config
 
-11. Edit ~/.config/hypr/hyprpaper.conf to set up the wallpaper.
+10. Edit ~/.config/hypr/hyprpaper.conf to set up the wallpaper.
 
 **You're done!**
 
