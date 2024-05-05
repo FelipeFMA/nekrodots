@@ -1,0 +1,53 @@
+/*
+
+██╗    ██╗ ██████╗ ███████╗██╗
+██║    ██║██╔═══██╗██╔════╝██║
+██║ █╗ ██║██║   ██║█████╗  ██║
+██║███╗██║██║   ██║██╔══╝  ██║
+╚███╔███╔╝╚██████╔╝██║     ██║
+ ╚══╝╚══╝  ╚═════╝ ╚═╝     ╚═╝
+
+Wofi Config File by Arfan Zubi
+Gray edition by Felipe Avelar
+
+*/
+
+window {
+    padding: 50px;
+    background-color: rgba(27, 27, 27, 0.95);
+    font-family: 'FiraCode Nerd Font', sans-serif;
+    font-size: 15px;
+}
+
+#input {
+    margin: 20px 15px;
+    padding: 10px 20px;
+    background-color: #333333;
+    border: none;
+    color: #ffffff;
+}
+
+#input:focus {
+    box-shadow: none;
+}
+
+#inner-box {
+    margin: 0 15px;
+}
+
+#img {
+    margin: 10px;
+}
+
+#entry:selected {
+    background-color: #cccccc;
+    border-radius: 5px;
+}
+
+#text {
+    color: #ffffff;
+}
+
+#text:selected {
+    color: #000000;
+}
