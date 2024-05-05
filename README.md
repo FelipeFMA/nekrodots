@@ -4,7 +4,7 @@
 
 **⚠️ Disclaimer: Configurations in this repository are adapted for my specific hardware and needs. If you intend to replicate it, be aware that tweaking will be necessary.**
 
-![Nekro Dots Preview](link)
+![Nekro Dots Preview](link) # TODO
 
 
 ## Setup Guide
@@ -13,7 +13,7 @@
 
 - **Arch Linux with Hyprland up and running**
 
-### Let's start the setup
+### Let's start the setup # Not done writing it yet
 
 01. Update your system.
    ```bash
@@ -62,6 +62,6 @@
 
 **You're done!**
 
-![Nekro Dots Preview2](link)
+![Nekro Dots Preview2](link) # TODO
 
 Now you have a simple but incredibly good-looking window manager.
