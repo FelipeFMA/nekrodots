@@ -8,6 +8,11 @@
 
 
 
+![Preview video](https://github.com/FelipeFMA/nekrodots/assets/30672253/7e748f00-35bf-41aa-be8b-9c77ac077a74)
+
+
+
+
 ## Setup Guide
 
 ### Prerequisites
@@ -63,7 +68,7 @@
 
 **You're done!**
 
-![preview 2](https://github.com/FelipeFMA/nekrodots/assets/30672253/8cd17e02-79a3-49ac-80f6-29af66de957a)
+![Preview 2](https://github.com/FelipeFMA/nekrodots/assets/30672253/8cd17e02-79a3-49ac-80f6-29af66de957a)
 
 
 Now you have a simple but incredibly good-looking window manager.
