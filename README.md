@@ -63,6 +63,7 @@
 
 **You're done!**
 
-![Nekro Dots Preview2](link) # TODO
+![preview 2](https://github.com/FelipeFMA/nekrodots/assets/30672253/8cd17e02-79a3-49ac-80f6-29af66de957a)
+
 
 Now you have a simple but incredibly good-looking window manager.
