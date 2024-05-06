@@ -16,8 +16,8 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/8fabed74-0e09-45c9-ab8d-b
 
 - **Arch Linux with Hyprland up and running**
 
-### Let's start the setup # Not done writing it yet
-
+### Let's start the setup!
+### I'm not done writing it yet (it misses a lot of things)
 01. Update your system.
    ```bash
    sudo pacman -Syyu
