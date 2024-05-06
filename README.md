@@ -4,7 +4,8 @@
 
 **⚠️ Disclaimer: Configurations in this repository are adapted for my specific hardware and needs. If you intend to replicate it, be aware that tweaking will be necessary.**
 
-![Nekro Dots Preview](link) # TODO
+![Preview](https://github.com/FelipeFMA/nekrodots/assets/30672253/f08d0a55-e7f6-471d-9334-8d8f7dc344a2)
+
 
 
 ## Setup Guide
