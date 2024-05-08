@@ -69,4 +69,4 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/b96653bc-df87-4bff-a477-4
 
 
 
-Now you have a simple but incredibly good-looking window manager.
+Now you have a minimalistic and incredibly good-looking window manager.
