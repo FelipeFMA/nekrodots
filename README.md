@@ -65,7 +65,8 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/b96653bc-df87-4bff-a477-4
 
 **You're done!**
 
-![Preview 2](https://github.com/FelipeFMA/nekrodots/assets/30672253/8cd17e02-79a3-49ac-80f6-29af66de957a)
+![preview 2](https://github.com/FelipeFMA/nekrodots/assets/30672253/cfe86e40-13c0-46ba-8fd6-4e2d2f160532)
+
 
 
 Now you have a simple but incredibly good-looking window manager.
