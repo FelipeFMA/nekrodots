@@ -4,6 +4,10 @@
 
 [[ $- != *i* ]] && return
 
+echo
+fastfetch -l small
+echo
+
 alias grep='grep --color=auto'
 alias ls='ls --color'
 PS1='\[\e[1;34m\]$(if [ "$PWD" == "$HOME" ]; then echo -e " ~"; else echo -e " \w"; fi)\n\[\e[m\] ➜ '
