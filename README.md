@@ -4,7 +4,7 @@
 
 **⚠️ Disclaimer: Configurations in this repository are adapted for my specific hardware and needs. If you intend to replicate it, be aware that tweaking will be necessary.**
 
-![Preview](https://github.com/FelipeFMA/nekrodots/assets/30672253/f08d0a55-e7f6-471d-9334-8d8f7dc344a2)
+![preview](https://github.com/FelipeFMA/nekrodots/assets/30672253/2534c33e-cae5-4787-8845-50163bbeaebf)
 
 
 https://github.com/FelipeFMA/nekrodots/assets/30672253/8fabed74-0e09-45c9-ab8d-b4ddabb3daf3
