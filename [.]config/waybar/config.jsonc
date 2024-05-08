@@ -65,7 +65,7 @@
 	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
 	"format": "",
 	"format-disabled": "󰂲",
-	"format-connected": "󰂱 {num_connections}",
+	"format-connected": "󰂱",
 	"tooltip-format": "{controller_alias}\t{controller_address}",
 	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
 	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
