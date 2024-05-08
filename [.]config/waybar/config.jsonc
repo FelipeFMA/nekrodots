@@ -41,7 +41,7 @@
     "network": {
         "format-wifi": "  {essid} ({signalStrength}%)",
         "format-ethernet": "  {ipaddr}/{cidr}",
-        "format-disconnected": "⚠  Desconectado",
+        "format-disconnected": "  Desconectado",
         "on-click": "alacritty -e sh -c nmtui"
    },
     "pulseaudio": {
