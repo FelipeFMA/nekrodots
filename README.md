@@ -7,7 +7,7 @@
 ![preview](https://github.com/FelipeFMA/nekrodots/assets/30672253/2534c33e-cae5-4787-8845-50163bbeaebf)
 
 
-https://github.com/FelipeFMA/nekrodots/assets/30672253/8fabed74-0e09-45c9-ab8d-b4ddabb3daf3
+https://github.com/FelipeFMA/nekrodots/assets/30672253/b96653bc-df87-4bff-a477-4839c82aa2b1
 
 
 ## Setup Guide
