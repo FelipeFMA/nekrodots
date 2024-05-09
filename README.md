@@ -4,10 +4,10 @@
 
 **⚠️ Disclaimer: Configurations in this repository are adapted for my specific hardware and needs. If you intend to replicate it, be aware that tweaking will be necessary.**
 
-![preview](https://github.com/FelipeFMA/nekrodots/assets/30672253/2534c33e-cae5-4787-8845-50163bbeaebf)
+![image](https://github.com/FelipeFMA/nekrodots/assets/30672253/4536b938-ad5c-4127-bc75-b85a1883a46d)
 
 
-https://github.com/FelipeFMA/nekrodots/assets/30672253/b96653bc-df87-4bff-a477-4839c82aa2b1
+https://github.com/FelipeFMA/nekrodots/assets/30672253/9747a66c-4da8-488a-9568-7d77cbc688c9
 
 
 ## Setup Guide
@@ -64,9 +64,8 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/b96653bc-df87-4bff-a477-4
 09. Edit ~/.config/hypr/hyprpaper.conf to set up the wallpaper.
 
 **You're done!**
-
-![preview 2](https://github.com/FelipeFMA/nekrodots/assets/30672253/cfe86e40-13c0-46ba-8fd6-4e2d2f160532)
-
+![image](https://github.com/FelipeFMA/nekrodots/assets/30672253/2fbd069c-83fc-4292-a23c-030d2ccd6c93)
 
 
-Now you have a minimalistic and incredibly good-looking window manager.
+
+Now you have a minimalistic and incredibly good-looking desktop.
