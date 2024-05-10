@@ -19,7 +19,7 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/9747a66c-4da8-488a-9568-7
 ### Let's start the setup!
 01. Update your system.
    ```bash
-   sudo pacman -Syyu
+   sudo pacman -Syu
    ```
 
 02. Install [yay](https://github.com/Jguer/yay).
