@@ -1,0 +1,9 @@
+[window]
+  opacity=0.95
+
+[colors]
+[colors.primary]
+  background="#1B1B1B"
+
+[font]
+  normal = { family = "SauceCodePro Nerd Font", style = "Regular" }
