@@ -6,4 +6,4 @@
   background="#1B1B1B"
 
 [font]
-  normal = { family = "SauceCodePro Nerd Font", style = "Regular" }
+  normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
