@@ -55,7 +55,7 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/9747a66c-4da8-488a-9568-7
 
 07. Install fonts.
    ```bash
-   yay -S noto-fonts noto-fonts-cjk noto-fonts-extra ttf-sourcecodepro-nerd otf-font-awesome ttf-apple-emoji ttf-ms-win11-auto
+   yay -S noto-fonts noto-fonts-cjk noto-fonts-extra ttf-jetbrains-mono-nerd awesome-terminal-fonts ttf-apple-emoji ttf-ms-win11-auto
    ```
 
 08. Put the config files in `~/.config`
