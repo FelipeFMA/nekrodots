@@ -27,9 +27,9 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/9747a66c-4da8-488a-9568-7
    sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
    ```
 
-03. Packages you need to install.
+03. Install all the packages, those are my packages, exept drivers.
    ```bash
-   yay -S alacritty waybar wofi qt5ct qt6ct nwg-look adw-gtk3 kvantum kvantum-qt5 appimagelauncher-bin spotify-launcher vlc unzip unrar upscayl-bin thunar thunar-archive-plugin thunar-volman swaync steam spotify-launcher slurp screen reflector qbittorrent polkit-gnome pavucontrol papirus-icon-theme papirus-folders openrgb localsend-bin kolourpaint hyprpicker hyprpaper hyprcursor hyprlang gnome-disk-utility git gimp fastfetch firefox breeze-icons bluez bluez-libs bluez-utils blueman wl-clipboard xdg-desktop-portal-hyprland fastfetch
+   yay -S zip xorg-xwayland xorg-server xdg-utils xdg-desktop-portal-hyprland xarchiver wofi wl-clipboard wget waybar upscayl-bin vlc upscayl-bin unzip unrar ttf-roboto ttf-opensans ttf-ms-win11-auto ttf-jetbrains-mono-nerd ttf-apple-emoji tldr thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman thorium-browser-bin swaync steam slurp seahorse screen reflector qt6ct qt6-wayland qt5ct qt5-websockets qt5-webengine qt5-wayland qt5-speech qt5-script qt5-networkauth qt5-multimedia qbittorrent protonup-qt-bin prismlauncher-qt5-bin polkit-gnome pavucontrol pipewire pipewire-alsa pipewire-jack pipewire-pulse papirus-icon-theme papirus-folders openrgb obs-studio nwg-look networkmanager network-manager-applet nano mpv lsd localsend-bin kvantum kvantum-qt5 kolourpaint kate imv hyprpicker hyprpaper htop heroic-games-launcher-bin grim gnome-disk-utility gimp flatpak fastfetch cowsay cmatrix classicube-bin btop breeze-icons blueman bluez-utils appimagelauncher-bin alacritty adw-gtk3 
    ```
 
 04. Set `papirus-colors` to black.
@@ -55,7 +55,7 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/9747a66c-4da8-488a-9568-7
 
 07. Install fonts.
    ```bash
-   yay -S noto-fonts noto-fonts-cjk noto-fonts-extra ttf-jetbrains-mono-nerd awesome-terminal-fonts ttf-apple-emoji ttf-ms-win11-auto
+   yay -S noto-fonts noto-fonts-cjk noto-fonts-extra ttf-roboto ttf-opensans ttf-ms-win11-auto ttf-jetbrains-mono-nerd ttf-apple-emoji awesome-terminal-fonts
    ```
 
 08. Put the config files in `~/.config`
