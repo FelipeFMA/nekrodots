@@ -1,6 +1,6 @@
 * {
   font-size: 14px;
-  font-family: "Noto Sans";
+  font-family: "JetBrainsMono Nerd Font";
   transition: 100ms;
   box-shadow: unset;
 }
@@ -29,7 +29,7 @@
   border: unset;
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
-
+  
 }
 
 .floating-notifications.background .notification-background .notification .notification-content,
@@ -84,14 +84,14 @@
 
 .control-center .notification-row .notification-background .notification .notification-content .summary,
 .floating-notifications.background .notification-background .notification .notification-content .summary {
-  font-family: 'Gabarito', 'Lexend', sans-serif;
+  font-family: 'JetBrainsMono Nerd Font';
   font-size: 0.9909rem;
   font-weight: 500;
 }
 
 .control-center .notification-row .notification-background .notification .notification-content .time,
 .floating-notifications.background .notification-background .notification .notification-content .time {
-  font-family: 'Geist', 'AR One Sans', 'Inter', 'Roboto', 'Noto Sans', 'Ubuntu', sans-serif;
+  font-family: 'JetBrainsMono Nerd Font';
   font-size: 0.8291rem;
   font-weight: 500;
   margin-right: 1rem;
@@ -100,7 +100,7 @@
 
 .control-center .notification-row .notification-background .notification .notification-content .body,
 .floating-notifications.background .notification-background .notification .notification-content .body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'JetBrainsMono Nerd Font';
   font-size: 0.8891rem;
   font-weight: 400;
   margin-top: 0.310rem;
@@ -146,7 +146,7 @@
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 0.545rem;
-  background-color: transparent;
+  background-color: transparent;  
 }
 
 .control-center slider {
@@ -173,7 +173,7 @@
 }
 
 .widget-title label {
-  font-family: 'Gabarito', 'Lexend', sans-serif;
+  font-family: 'JetBrainsMono Nerd Font';
   font-size: 1.364rem;
   color: #e4e1e6;
   margin-left: 0.941rem;
@@ -189,7 +189,7 @@
 }
 
 .widget-title button label {
-  font-family: 'Gabarito', sans-serif;
+  font-family: 'JetBrainsMono Nerd Font';
   font-size: 1.0409rem;
   color: #e4e1e6;
   margin-right: 0.841rem;
@@ -232,7 +232,7 @@
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button label {
-  font-family: "Materials Symbol Rounded";
+  font-family: "JetBrainsMono Nerd Font";
   font-size: 1.3027rem;
   color: #e4e1e6;
 }
@@ -282,9 +282,9 @@
 .widget-mpris {
   background-color: rgba(28, 28, 34, 0.35);
   padding: 8px;
-  margin: 8px;
+  margin: 8px;  
   border-radius: 1.159rem;
-  -gtk-outline-radius: 1.159rem;
+  -gtk-outline-radius: 1.159rem;  
 }
 
 .widget-mpris-player {
