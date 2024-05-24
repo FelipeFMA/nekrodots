@@ -77,7 +77,7 @@
   "custom/weather": {
     "format": "{}",
     "tooltip": false,
-    "interval": 3600,
+    "interval": 60,
     "exec": "wttrbar --custom-indicator '{ICON} {temp_C}ºC'",
     "return-type": "json"
     },
