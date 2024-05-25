@@ -63,7 +63,7 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/9747a66c-4da8-488a-9568-7
 
 09. Put the `[.]icons` files in `~/.icons`
 
-10. Use `nwg-look` to select theme `adw-gtk3-dark` and `Simp1e` cursor
+10. Use `nwg-look` to select theme `adw-gtk3-dark`.
 
 11. Open `kvantum` and select the `KvLibadwaitaDark` theme
 
