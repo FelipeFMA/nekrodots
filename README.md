@@ -67,9 +67,15 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/9747a66c-4da8-488a-9568-7
 
 11. Open `kvantum` and select the `KvLibadwaitaDark` theme
 
-12. Open `qt5ct` and select `kvantum-dark` style, do the same for `qt6ct`
+12. Install `Gradience`.
+    ```
+    sudo flatpak install com.github.GradienceTeam.Gradience
+    ```
+13. Open `Gradience` and set the colors you want
+    
+14. Open `qt5ct` and select `kvantum-dark` style, do the same for `qt6ct`
 
-13. Edit `~/.config/hypr/hyprpaper.conf` to set up the wallpaper.
+15. Edit `~/.config/hypr/hyprpaper.conf` to set up the wallpaper.
 
 **You're done!**
 ![image](https://github.com/FelipeFMA/nekrodots/assets/30672253/2fbd069c-83fc-4292-a23c-030d2ccd6c93)
