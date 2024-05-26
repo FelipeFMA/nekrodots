@@ -30,7 +30,7 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/9747a66c-4da8-488a-9568-7
 
 03. Install all the packages, those are my packages, exept drivers.
    ```bash
-   yay -S adw-gtk3 alacritty appimagelauncher-bin blueman bluez-utils breeze-icons btop classicube-bin cmatrix cowsay fastfetch flatpak gimp gnome-disk-utility grim heroic-games-launcher-bin htop hyprpaper hyprpicker imv kate kolourpaint kvantum kvantum-qt5 localsend-bin lsd mpv nano network-manager-applet networkmanager nwg-look obs-studio openrgb papirus-folders papirus-icon-theme pavucontrol pipewire pipewire-alsa pipewire-jack pipewire-pulse polkit-gnome prismlauncher-qt5-bin protonup-qt-bin qbittorrent qt5-multimedia qt5-networkauth qt5-script qt5-speech qt5-wayland qt5-webengine qt5-websockets qt5ct qt6-wayland qt6ct reflector screen seahorse slurp steam swaync pcmanfm-gtk3 mercury-browser-bin thorium-browser-bin  tldr ttf-apple-emoji ttf-jetbrains-mono-nerd ttf-ms-win11-auto ttf-opensans ttf-roboto unrar unzip upscayl-bin vlc waybar wget wl-clipboard wofi xarchiver xdg-desktop-portal-hyprland xdg-utils xorg-server xorg-xwayland zip mkinitcpio-firmware wlogout wttrbar cpupower throttled
+   yay -S adw-gtk3 alacritty appimagelauncher-bin blueman bluez-utils breeze-icons btop classicube-bin cmatrix cowsay fastfetch gradience gimp gnome-disk-utility grim heroic-games-launcher-bin htop hyprpaper hyprpicker imv kate kolourpaint kvantum kvantum-qt5 localsend-bin lsd mpv nano network-manager-applet networkmanager nwg-look obs-studio openrgb papirus-folders papirus-icon-theme pavucontrol pipewire pipewire-alsa pipewire-jack pipewire-pulse polkit-gnome prismlauncher-qt5-bin protonup-qt-bin qbittorrent qt5-multimedia qt5-networkauth qt5-script qt5-speech qt5-wayland qt5-webengine qt5-websockets qt5ct qt6-wayland qt6ct reflector screen seahorse slurp steam swaync pcmanfm-gtk3 mercury-browser-bin thorium-browser-bin  tldr ttf-apple-emoji ttf-jetbrains-mono-nerd ttf-ms-win11-auto ttf-opensans ttf-roboto unrar unzip upscayl-bin vlc waybar wget wl-clipboard wofi xarchiver xdg-desktop-portal-hyprland xdg-utils xorg-server xorg-xwayland zip mkinitcpio-firmware wlogout wttrbar cpupower throttled
    ```
 
 04. Set `papirus-colors` to black.
@@ -59,23 +59,19 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/9747a66c-4da8-488a-9568-7
    yay -S awesome-terminal-fonts noto-fonts noto-fonts-cjk noto-fonts-extra ttf-apple-emoji ttf-jetbrains-mono-nerd ttf-ms-win11-auto ttf-opensans ttf-roboto
    ```
 
-08. Put the config files in `~/.config`
+08. Put the config files in `~/.config`.
 
-09. Put the `[.]icons` files in `~/.icons`
+09. Put the `[.]icons` files in `~/.icons`.
 
 10. Use `nwg-look` to select theme `adw-gtk3-dark`.
 
-11. Open `kvantum` and select the `KvLibadwaitaDark` theme
+11. Open `kvantum` and select the `KvLibadwaitaDark` theme.
 
-12. Install `Gradience`.
-    ```
-    sudo flatpak install com.github.GradienceTeam.Gradience
-    ```
-13. Open `Gradience` and set the colors you want
+12. Open `Gradience` and set the colors you want.
     
-14. Open `qt5ct` and select `kvantum-dark` style, do the same for `qt6ct`
+13. Open `qt5ct` and select `kvantum-dark` style, do the same for `qt6ct`.
 
-15. Edit `~/.config/hypr/hyprpaper.conf` to set up the wallpaper.
+14. Edit `~/.config/hypr/hyprpaper.conf` to set up the wallpaper.
 
 **You're done!**
 ![image](https://github.com/FelipeFMA/nekrodots/assets/30672253/2fbd069c-83fc-4292-a23c-030d2ccd6c93)
