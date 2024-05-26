@@ -8,10 +8,10 @@ window {
 }
 
 button {
-    border-radius: 10;
-    border-color: grey;
+	border-radius: 10px;
+	border-color: grey;
 	text-decoration-color: #FFFFFF;
-    color: #FFFFFF;
+	color: #FFFFFF;
 	background-color: #1B1B1B;
 	border-style: solid;
 	border-width: 2px;
@@ -26,25 +26,25 @@ button:focus, button:active, button:hover {
 }
 
 #lock {
-    background-image: image(url("/home/felipe/.config/wlogout/lock-solid.png"), url("/home/felipe/.config/wlogout/lock-solid.png"));
+	background-image: image(url("/home/felipe/.config/wlogout/lock-solid.png"), url("/home/felipe/.config/wlogout/lock-solid.png"));
 }
 
 #logout {
-    background-image: image(url("/home/felipe/.config/wlogout/lock-solid.png"), url("/home/felipe/.config/wlogout/lock-solid.png"));
+	background-image: image(url("/home/felipe/.config/wlogout/lock-solid.png"), url("/home/felipe/.config/wlogout/lock-solid.png"));
 }
 
 #suspend {
-    background-image: image(url("/home/felipe/.config/wlogout/moon-solid.png"), url("/home/felipe/.config/wlogout/moon-solid.png"));
+	background-image: image(url("/home/felipe/.config/wlogout/moon-solid.png"), url("/home/felipe/.config/wlogout/moon-solid.png"));
 }
 
 #hibernate {
-    background-image: image(url("/home/felipe/.config/wlogout/moon-solid.png"), url("/home/felipe/.config/wlogout/moon-solid.png"));
+	background-image: image(url("/home/felipe/.config/wlogout/moon-solid.png"), url("/home/felipe/.config/wlogout/moon-solid.png"));
 }
 
 #shutdown {
-    background-image: image(url("/home/felipe/.config/wlogout/power-off-solid.png"), url("/home/felipe/.config/wlogout/power-off-solid.png"));
+	background-image: image(url("/home/felipe/.config/wlogout/power-off-solid.png"), url("/home/felipe/.config/wlogout/power-off-solid.png"));
 }
 
 #reboot {
-    background-image: image(url("/home/felipe/.config/wlogout/arrows-rotate-solid.png"), url("/home/felipe/.config/wlogout/arrows-rotate-solid.png"));
+	background-image: image(url("/home/felipe/.config/wlogout/arrows-rotate-solid.png"), url("/home/felipe/.config/wlogout/arrows-rotate-solid.png"));
 }
