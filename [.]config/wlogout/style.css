@@ -22,6 +22,7 @@ button {
 
 button:focus, button:active, button:hover {
 	background-color: #636363;
+	outline-style: none;
 }
 
 #lock {
