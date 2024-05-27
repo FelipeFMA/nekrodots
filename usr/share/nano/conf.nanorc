@@ -1,0 +1,60 @@
+syntax "\conf$" "conf" "bash_profile" "bash_history" "\rc$" "(\.|/|)control$" "(\.(repo|conf|config|cfg|cnf|rc|lst|list|defs|ini|desktop|mime|types|preset|cache|seat|service|htaccess)$|(^|/)(\w*crontab|mirrorlist|group|hosts|passwd|rpc|netconfig|shadow|fstab|inittab|inputrc|protocols|sudoers)$|conf.d/|.config/)"
+
+
+# default text
+color white "^.*$"
+
+# special values
+icolor brightblue "(^|\s|=)(default|true|false|on|off|yes|no)(\s|$)"
+
+# keys
+icolor cyan "^\s*(set\s+)?[A-Z0-9_\/\.\%\@+-]+\s*([:]|\>)"
+
+# commands
+color blue "^\s*set\s+\<"
+
+# punctuation
+color blue "[.]"
+
+# numbers
+color red "(^|\s|[[/:|<>(){}=,]|\])[-+]?[0-9](\.?[0-9])*%?($|\>)"
+
+# keys
+icolor cyan "^\s*(\$if )?([A-Z0-9_\/\.\%\@+-]|\s)+="
+
+# punctuation
+color blue "/"
+color brightwhite "(\]|[()<>[{},;:=])"
+color brightwhite "(^|\[|\{|\:)\s*-(\s|$)"
+
+# section headings
+icolor brightyellow "^\s*(\[([A-Z0-9_\.-]|\s)+\])+\s*$"
+color brightcyan "^\s*((Sub)?Section\s*(=|\>)|End(Sub)?Section\s*$)"
+color brightcyan "^\s*\$(end)?if(\s|$)"
+
+# URLs
+icolor green "\b(([A-Z]+://|www[.])[A-Z0-9/:#?&$=_\.\-]+)(\b|$| )"
+
+# XML-like tags
+icolor brightcyan "</?\w+((\s*\w+\s*=)?\s*("[^"]*"|'[^']*'|!?[A-Z0-9_:/]))*(\s*/)?>"
+
+color green "\<(break|case|continue|do|done|elif|else|esac|exit|fi|for|function|if|in|read|return|select|shift|then|time|until|while)\>"
+color green "\<(declare|eval|exec|export|let|local)\>"
+color green "[{}():;|`$<>!=&\\]" "(\]|\[)"
+color green "-[Ldefgruwx]\>"
+color green "-(eq|ne|gt|lt|ge|le|s|n|z)\>"
+color brightblue "\<(awk|cat|cd|ch(grp|mod|own)|cp|echo|env|grep|install|ln|make|mkdir|mv|popd|printf|pushd|rm|rmdir|sed|set|tar|touch|umask|unset)\>"
+
+# Basic variable names (no braces).
+color brightred "\$[-0-9@*#?$!]" "\$[[:alpha:]_][[:alnum:]_]*"
+# More complicated variable names; handles braces and replacements and arrays.
+color brightred "\$\{[#!]?([-@*#?$!]|[0-9]+|[[:alpha:]_][[:alnum:]_]*)(\[([[:space:]]*[[:alnum:]_]+[[:space:]]*|@)\])?(([#%/]|:?[-=?+])[^}]*\}|\[|\})"
+
+# Comments.
+color gray "(^|[[:space:]])#.*$"
+
+# Strings.
+color brightyellow ""(\\.|[^"])*"" "'(\\.|[^'])*'"
+
+# Trailing whitespace.
+color ,green "[[:space:]]+$"
