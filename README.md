@@ -4,16 +4,25 @@
 
 **⚠️ Disclaimer: Configurations in this repository are adapted for my specific hardware and needs. If you intend to replicate it, be aware that tweaking will be necessary.**
 
-TODO: add an image here
+<details>
+  <summary>PREVIEW</summary>
+   
+![image](https://github.com/FelipeFMA/nekrodots/assets/30672253/168b6649-6669-4d73-9c8f-2c11075790ed)
 
-TODO: add a video here
+![image](https://github.com/FelipeFMA/nekrodots/assets/30672253/5b39d08c-63e7-4e15-904d-bec460ea9a9b)
 
+![image](https://github.com/FelipeFMA/nekrodots/assets/30672253/dc011c83-dc1a-435a-893c-0200074191f9)
+
+https://github.com/FelipeFMA/nekrodots/assets/30672253/f7604819-9939-4b74-a5a9-575f2eddd757
+</details>
 
 ## Setup Guide
 
 ### Prerequisites
 
 - **NixOS**
+- **git**
+- **Internet connection**
 
 ### Let's start the setup!
 01. Clone the repo.
@@ -54,8 +63,3 @@ TODO: add a video here
    ```
 
 **You're done!**
-TODO: add an image here
-
-
-
-Now you have a minimalistic and incredibly good-looking desktop.
