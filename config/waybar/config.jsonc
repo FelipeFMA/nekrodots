@@ -41,7 +41,7 @@
     },
     "network": {
         "format-wifi": "  {signalStrength}%",
-	    "format-ethernet": "  {ipaddr}/{cidr}",
+	"format-ethernet": "  {ipaddr}/{cidr}",
         "format-disconnected": "  Desconectado",
         "on-click": "alacritty -e sh -c nmtui" 
    },
@@ -63,10 +63,10 @@
         "on-click": "pavucontrol"
     },
     "bluetooth": {
-	    "format": "",
-	    "format-disabled": "󰂲",
-	    "format-connected": "󰂱",
-	    "on-click": "blueman-manager"
+	"format": "",
+	"format-disabled": "󰂲",
+	"format-connected": "󰂱",
+	"on-click": "blueman-manager"
     },
     "custom/weather": {
         "format": "{}",
