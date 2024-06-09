@@ -4,9 +4,15 @@
 **⚠️ Disclaimer: Configurations in this repository are adapted for my specific hardware and needs. If you intend to replicate it, be aware that tweaking will be necessary.**
 
 <details>
-  <summary>PREVIEW</summary>
+  <summary>📸 Click here for preview</summary>
    
-TODO: Add images here.
+![desktop](https://github.com/FelipeFMA/nekrodots/assets/30672253/0d6bdccc-509b-45c2-9fd9-985689231502)
+
+![terminals](https://github.com/FelipeFMA/nekrodots/assets/30672253/23329521-f992-49dc-b7ba-6ec995c47237)
+
+![gtkapps](https://github.com/FelipeFMA/nekrodots/assets/30672253/ff513a0e-9fd6-4c9f-a3f9-8b3fea648c84)
+
+https://github.com/FelipeFMA/nekrodots/assets/30672253/0312f4df-66a9-4831-833d-19406682dd43
 
 </details>
 
@@ -65,3 +71,6 @@ TODO: Add images here.
    ```
 
 10. Reboot and enjoy! If you haven't installed any display manager, you'll need to start hyprland by typing "Hyprland" on the TTY.
+   ```bash
+   sudo reboot now
+   ```
