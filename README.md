@@ -1,6 +1,4 @@
 # NekroDots
-## Minimalistic hyprland setup on Arch Linux (btw).
-
 **⚠️ Disclaimer: Configurations in this repository are adapted for my specific hardware and needs. If you intend to replicate it, be aware that tweaking will be necessary.**
 
 <details>
