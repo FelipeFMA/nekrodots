@@ -70,7 +70,7 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/0312f4df-66a9-4831-833d-1
    sudo systemctl enable cpupower
    ```
 
-10. Reboot and enjoy! If you haven't installed any display manager, you'll need to start hyprland by typing "Hyprland" on the TTY.
+10. Reboot and enjoy! If you haven't installed any display manager, you'll need to start hyprland by typing ``Hyprland`` on the TTY.
    ```bash
    sudo reboot now
    ```
