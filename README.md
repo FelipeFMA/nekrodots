@@ -77,3 +77,5 @@ yay -S adw-gtk-theme alacritty ani-cli appimagelauncher-bin base base-devel blue
    ```bash
    sudo reboot now
    ```
+
+Note: the wallpaper is set using [linux-wallpaperengine](https://github.com/Almamu/linux-wallpaperengine), you can change it on ``hyprland.conf``.
