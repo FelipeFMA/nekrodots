@@ -1,5 +1,6 @@
 # NekroDots
 **⚠️ Disclaimer: Configurations in this repository are adapted for my specific hardware and needs. If you intend to replicate it, be aware that tweaking will be necessary.**
+**⚠️ Disclaimer 2: my dots are up to date but info on the readme can be old**
 
 <details>
   <summary>📸 Click here for preview</summary>

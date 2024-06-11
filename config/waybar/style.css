@@ -20,7 +20,7 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-    color: transparent;
+    	color: transparent;
 	background: transparent;
 }
 
@@ -30,16 +30,16 @@ window#waybar.hidden {
 	font-size: 4px;
 	margin-bottom: 0px;
 	border-radius: 10px;
-	background: #ffffff;
+	background: #000000;
 	transition: none;
     border-bottom-width: 5px;
-    border-bottom-color: #c5c5c5;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
 #workspaces button {
 	transition: none;
-	color: #c9c9c9;
+	color: #B9B9B9;
 	background: transparent;
 	font-size: 16px;
 	border-radius: 2px;
@@ -47,13 +47,13 @@ window#waybar.hidden {
 
 #workspaces button.occupied {
 	transition: none;
-	color: #000000;
+	color: #FFFFFF;
 	background: transparent;
 	font-size: 4px;
 }
 
 #workspaces button.active {
-	color: #000000;
+	color: #ffffff;
 }
 
 #workspaces button:hover {
@@ -61,11 +61,11 @@ window#waybar.hidden {
 	box-shadow: inherit;
 	text-shadow: inherit;
 	border-color: #ffffff;
-	color: #9e9e9e;
+	color: #ffffff;
 }
 
 #workspaces button.active:hover {
-    color: #000000;
+    color: #ffffff;
 }
 
 #network {
@@ -76,10 +76,10 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #000000;
-	background: #ffffff;
+	color: #ffffff;
+	background: #000000;
     border-bottom-width: 5px;
-    border-bottom-color: #c5c5c5;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
@@ -91,10 +91,10 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #000000;
-	background: #ffffff;
+	color: #ffffff;
+	background: #000000;
     border-bottom-width: 5px;
-    border-bottom-color: #c5c5c5;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
@@ -106,38 +106,38 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #000000;
-	background: #ffffff;
+	color: #ffffff;
+	background: #000000;
     border-bottom-width: 5px;
-    border-bottom-color: #c5c5c5;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
 #battery.charging, #battery.plugged {
-	color: #000000;
-    background-color: #ffffff;
+	color: #ffffff;
+    background-color: #000000;
     border-bottom-width: 5px;
-    border-bottom-color: #c5c5c5;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
 #battery.critical:not(.charging) {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     border-bottom-width: 5px;
-    border-bottom-color: #c5c5c5;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: #000000;
+        background-color: #000000;
+        color: #ffffff;
     }
 }
 
@@ -149,10 +149,10 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #000000;
-	background: #ffffff;
+	color: #ffffff;
+	background: #000000;
 	border-bottom-width: 5px;
-    border-bottom-color: #c5c5c5;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
@@ -164,10 +164,10 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #000000;
-	background: #292929;
+	color: #ffffff;
+	background: #000000;
     border-bottom-width: 5px;
-    border-bottom-color: #3c3c3c;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
@@ -180,10 +180,10 @@ window#waybar.hidden {
     padding-right: 15px;
     border-radius: 10px;
     transition: none;
-    color: #000000;
-    background: #ffffff;
+    color: #ffffff;
+    background: #000000;
     border-bottom-width: 5px;
-    border-bottom-color: #c5c5c5;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
@@ -196,10 +196,10 @@ window#waybar.hidden {
     padding-right: 15px;
     border-radius: 10px;
     transition: none;
-    color: #000000;
-    background: #ffffff;
+    color: #ffffff;
+    background: #000000;
     border-bottom-width: 5px;
-    border-bottom-color: #c5c5c5;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
@@ -212,10 +212,10 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #000000;
-	background: #ffffff;
+	color: #ffffff;
+	background: #000000;
 	border-bottom-width: 5px;
-	border-bottom-color: #c5c5c5;
+	border-bottom-color: #4a4a4a;
 	border-bottom-style: solid;
 }
 
@@ -227,10 +227,10 @@ window#waybar.hidden {
     padding-right: 10px;
     border-radius: 10px;
     transition: none;
-    color: #000000;
-    background: #ffffff;
+    color: #ffffff;
+    background: #000000;
     border-bottom-width: 5px;
-    border-bottom-color: #c5c5c5;
+    border-bottom-color: #4a4a4a;
     border-bottom-style: solid;
 }
 
