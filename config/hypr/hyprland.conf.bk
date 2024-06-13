@@ -11,7 +11,7 @@ monitor=,preferred,auto,1
 
 # autostart the programs.
 exec-once=/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec-once=hyprpaper
+#exec-once=hyprpaper
 #exec-once=linux-wallpaperengine --screen-root HDMI-A-1 2619589179 ./linux-wallpaperengine --screenshot ~/Imagens/Wallpapers/wallpaperengine.png
 exec-once=waybar
 exec-once=swaync
@@ -21,7 +21,7 @@ exec-once = wl-paste --type image --watch cliphist store
 
 # Set the standards.
 $browser = firefox
-$terminal = kitty
+$terminal = alacritty
 $fileManager = thunar
 $launcher = wofi -c ~/.config/wofi/launcher.txt
 $clipboard = cliphist list | wofi -c ~/.config/wofi/clipboard.txt | cliphist decode | wl-copy
@@ -38,9 +38,7 @@ env = GBM_BACKEND,nvidia-drm
 env = __GLX_VENDOR_LIBRARY_NAME,nvidia
 env = NVD_BACKEND,direct
 env = WLR_DRM_DEVICES,$HOME/.config/hypr/nvidia:$HOME/.config/hypr/intel
-env = __GL_GSYNC_ALLOWED,1
-env = __GL_VRR_ALLOWED,1
-env = __GL_MaxFramesAllowed,1
+env = ELECTRON_OZONE_PLATFORM_HINT,wayland
 
 # Keyboard and mouse.
 input {

@@ -49,18 +49,18 @@
         "scroll-step": 5, // %, can be a float
         "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon} ",
-        "format-bluetooth-muted": "  Mutado",
-        "format-muted": "  Mutado",
+        "format-bluetooth-muted": "  Mutado",
+        "format-muted": " Mutado",
         "format-icons": {
             "headphone": " ",
-            "hands-free": "  ",
-            "headset": "  ",
-            "phone": "  ",
-            "portable": "  ",
-            "car": "  ",
+            "hands-free": " ",
+            "headset": " ",
+            "phone": " ",
+            "portable": " ",
+            "car": " ",
             "default": [" ", " ", " "]
         },
-        "on-click": "pavucontrol"
+	"on-click": "pavucontrol"
     },
     "bluetooth": {
 	    "format": "",
