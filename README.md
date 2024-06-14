@@ -5,12 +5,13 @@
 
 <details>
   <summary>📸 Click here for preview</summary>
-   
-![desktop](https://github.com/FelipeFMA/nekrodots/assets/30672253/7056be66-6b98-4087-8a7f-df464d00ed4a)
 
-![apps](https://github.com/FelipeFMA/nekrodots/assets/30672253/32be5a24-ecba-408a-ba13-139889b8d70b)
 
-https://github.com/FelipeFMA/nekrodots/assets/30672253/15deb749-00b8-4e6e-a0c2-dbee06fb685b
+![desktop](https://github.com/FelipeFMA/nekrodots/assets/30672253/5281c631-40fb-4bc3-a7fe-e21a7d516dbd)
+
+![apps](https://github.com/FelipeFMA/nekrodots/assets/30672253/47de9ddd-e654-48af-8fee-0bee3f91b41d)
+
+https://github.com/FelipeFMA/nekrodots/assets/30672253/bc1f6102-ebe5-4178-9a55-3f703de64ebc
 
 </details>
 
