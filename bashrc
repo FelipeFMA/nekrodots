@@ -2,10 +2,10 @@
 # ~/.bashrc
 #
 
-# Uncomment if using autologin.
-#if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-#  Hyprland
-#fi
+# Comment if not using autologin.
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+  sleep 1 && Hyprland
+fi
 
 
 [[ $- != *i* ]] && return
