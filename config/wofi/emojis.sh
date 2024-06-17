@@ -1237,7 +1237,7 @@ exit
 ⚖️ balance scale law fairness weight
 🦯 probing cane accessibility
 🔗 link rings url chain
-⛓️‍💥 broken chain unluck
+⛓️‍💥 broken chain unlock
 ⛓️ chains lock arrest
 🧰 toolbox tools diy fix maintainer mechanic
 🧲 magnet attraction magnetic
