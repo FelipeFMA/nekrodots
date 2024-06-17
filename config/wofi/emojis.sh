@@ -383,6 +383,7 @@ exit
 🧎‍♀️ woman kneeling respectful pray
 🧎‍♀️‍➡️ woman kneeling respectful pray right
 🧑‍🦯 person with probing cane blind
+🧑‍🦯‍➡️ person with probing cane blind right
 👨‍🦯 man with probing cane blind
 👩‍🦯 woman with probing cane blind
 🧑‍🦼 person in motorized wheelchair disability accessibility
@@ -1500,7 +1501,7 @@ exit
 🏴‍☠️ pirate flag skull crossbones flag banner
 🇦🇨 flag ascension island
 🇦🇩 flag andorra ad flag nation country banner andorra
-🇦🇪 flag united arab emirates united arab emirates flag nation country banner united arab emirates
+🇦🇪 flag united arab emirates united arab emirates flag nation country banner
 🇦🇫 flag afghanistan af flag nation country banner afghanistan
 🇦🇬 flag antigua barbuda antigua barbuda flag nation country banner antigua barbuda
 🇦🇮 flag anguilla ai flag nation country banner anguilla
@@ -1539,7 +1540,7 @@ exit
 🇨🇦 flag canada ca flag nation country banner canada
 🇨🇨 flag cocos islands cocos keeling islands flag nation country banner cocos islands
 🇨🇩 flag congo kinshasa congo democratic republic flag nation country banner congo kinshasa
-🇨🇫 flag central african republic central african republic flag nation country banner central african republic
+🇨🇫 flag central african republic central african republic flag nation country banner central
 🇨🇬 flag congo brazzaville congo flag nation country banner congo brazzaville
 🇨🇭 flag switzerland ch flag nation country banner switzerland
 🇨🇮 flag cote d ivoire ivory coast flag nation country banner cote d ivoire
@@ -1579,7 +1580,7 @@ exit
 🇫🇴 flag faroe islands faroe islands flag nation country banner faroe islands
 🇫🇷 flag france banner flag nation france french country france
 🇬🇦 flag gabon ga flag nation country banner gabon
-🇬🇧 flag united kingdom united kingdom great britain northern ireland flag nation country banner british UK english england union jack united kingdom
+🇬🇧 flag united kingdom britain northern ireland flag country banner british UK english england
 🇬🇩 flag grenada gd flag nation country banner grenada
 🇬🇪 flag georgia ge flag nation country banner georgia
 🇬🇫 flag french guiana french guiana flag nation country banner french guiana
@@ -1592,7 +1593,7 @@ exit
 🇬🇵 flag guadeloupe gp flag nation country banner guadeloupe
 🇬🇶 flag equatorial guinea equatorial gn flag nation country banner equatorial guinea
 🇬🇷 flag greece gr flag nation country banner greece
-🇬🇸 flag south georgia south sandwich islands south georgia sandwich islands flag nation country banner south georgia south sandwich islands
+🇬🇸 flag south georgia south sandwich islands south georgia sandwich islands flag nation country banner south
 🇬🇹 flag guatemala gt flag nation country banner guatemala
 🇬🇺 flag guam gu flag nation country banner guam
 🇬🇼 flag guinea bissau gw bissau flag nation country banner guinea bissau
@@ -1609,7 +1610,7 @@ exit
 🇮🇱 flag israel il flag nation country banner israel
 🇮🇲 flag isle of man isle man flag nation country banner isle of man
 🇮🇳 flag india in flag nation country banner india
-🇮🇴 flag british indian ocean territory british indian ocean territory flag nation country banner british indian ocean territory
+🇮🇴 flag british indian ocean territory flag nation country banner
 🇮🇶 flag iraq iq flag nation country banner iraq
 🇮🇷 flag iran iran islamic republic flag nation country banner iran
 🇮🇸 flag iceland is flag nation country banner iceland
@@ -1652,7 +1653,7 @@ exit
 🇲🇲 flag myanmar mm flag nation country banner myanmar
 🇲🇳 flag mongolia mn flag nation country banner mongolia
 🇲🇴 flag macao sar china macao flag nation country banner macao sar china
-🇲🇵 flag northern mariana islands northern mariana islands flag nation country banner northern mariana islands
+🇲🇵 flag northern mariana islands northern mariana islands flag nation country banner
 🇲🇶 flag martinique mq flag nation country banner martinique
 🇲🇷 flag mauritania mr flag nation country banner mauritania
 🇲🇸 flag montserrat ms flag nation country banner montserrat
@@ -1686,7 +1687,7 @@ exit
 🇵🇲 flag st pierre miquelon saint pierre miquelon flag nation country banner st pierre miquelon
 🇵🇳 flag pitcairn islands pitcairn flag nation country banner pitcairn islands
 🇵🇷 flag puerto rico puerto rico flag nation country banner puerto rico
-🇵🇸 flag palestinian territories palestine palestinian territories flag nation country banner palestinian territories
+🇵🇸 flag palestine palestinian territories flag nation country banner
 🇵🇹 flag portugal pt flag nation country banner portugal
 🇵🇼 flag palau pw flag nation country banner palau
 🇵🇾 flag paraguay py flag nation country banner paraguay
@@ -1720,7 +1721,7 @@ exit
 🇹🇦 flag tristan da cunha
 🇹🇨 flag turks caicos islands turks caicos islands flag nation country banner turks caicos islands
 🇹🇩 flag chad td flag nation country banner chad
-🇹🇫 flag french southern territories french southern territories flag nation country banner french southern territories
+🇹🇫 flag french southern territories flag nation country banner
 🇹🇬 flag togo tg flag nation country banner togo
 🇹🇭 flag thailand th flag nation country banner thailand
 🇹🇯 flag tajikistan tj flag nation country banner tajikistan
@@ -1742,9 +1743,9 @@ exit
 🇺🇾 flag uruguay uy flag nation country banner uruguay
 🇺🇿 flag uzbekistan uz flag nation country banner uzbekistan
 🇻🇦 flag vatican city vatican city flag nation country banner vatican city
-🇻🇨 flag st vincent grenadines saint vincent grenadines flag nation country banner st vincent grenadines
+🇻🇨 flag st vincent grenadines saint vincent grenadines flag nation country banner st
 🇻🇪 flag venezuela ve bolivarian republic flag nation country banner venezuela
-🇻🇬 flag british virgin islands british virgin islands bvi flag nation country banner british virgin islands
+🇻🇬 flag british virgin islands british virgin islands bvi flag nation country banner british
 🇻🇮 flag u s virgin islands virgin islands us flag nation country banner u s virgin islands
 🇻🇳 flag vietnam viet nam flag nation country banner vietnam
 🇻🇺 flag vanuatu vu flag nation country banner vanuatu
