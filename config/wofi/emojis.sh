@@ -95,6 +95,8 @@ exit
 😡 pouting face angry mad hate despise
 😠 angry face mad face annoyed frustrated
 🤬 face with symbols on mouth face swearing cursing cussing profanity expletive
+🙂‍↔️ head shaking horizontally disagreement disagree denial deny rejection reject
+🙂‍↕️ head shaking vertically agreement agree acceptance accept acknowledgment yes
 😈 smiling face with horns devil horns
 👿 angry face with horns devil angry horns
 💀 skull dead skeleton creepy death
@@ -365,15 +367,21 @@ exit
 💇 person getting haircut hairstyle
 💇‍♂️ man getting haircut male boy man
 💇‍♀️ woman getting haircut female girl woman
-🚶 person walking move
+🚶 person walking move left
+🚶‍➡️ person walking move right
 🚶‍♂️ man walking human feet steps
+🚶‍♂️‍➡️ man walking human feet steps right
 🚶‍♀️ woman walking human feet steps woman female
+🚶‍♀️‍➡️ woman walking human feet steps woman female right
 🧍 person standing still
 🧍‍♂️ man standing still
 🧍‍♀️ woman standing still
 🧎 person kneeling pray respectful
+🧎‍➡️ person kneeling pray respectful right
 🧎‍♂️ man kneeling pray respectful
+🧎‍♂️‍➡️ man kneeling pray respectful right
 🧎‍♀️ woman kneeling respectful pray
+🧎‍♀️‍➡️ woman kneeling respectful pray right
 🧑‍🦯 person with probing cane blind
 👨‍🦯 man with probing cane blind
 👩‍🦯 woman with probing cane blind
@@ -484,6 +492,10 @@ exit
 👩‍👧 family woman girl home parent people human child
 👩‍👧‍👦 family woman girl boy home parent people human children
 👩‍👧‍👧 family woman girl girl home parent people human children
+🧑‍🧑‍🧒 family adult couple child kid
+🧑‍🧒‍🧒 family solo adult child kid kids children
+🧑‍🧒 family solo child kid adult
+🧑‍🧑‍🧒‍🧒 family couple adult children kids child kid
 🗣️ speaking head user person human sing say talk
 👤 bust in silhouette user person human
 👥 busts in silhouette user person human group team
@@ -592,6 +604,7 @@ exit
 🕸️ spider web animal insect arachnid silk
 🦂 scorpion animal arachnid
 🦟 mosquito animal nature insect malaria
+🐦‍🔥 phoenix flame bird
 🦠 microbe amoeba bacteria germs virus covid
 💐 bouquet flowers nature spring
 🌸 cherry blossom nature plant spring flower
@@ -620,6 +633,7 @@ exit
 🍉 watermelon fruit food picnic summer
 🍊 tangerine food fruit nature orange
 🍋 lemon fruit nature
+🍋‍🟩 lime fruit nature
 🍌 banana fruit food monkey
 🍍 pineapple fruit nature food
 🥭 mango fruit food tropical
@@ -644,6 +658,7 @@ exit
 🧄 garlic food spice cook
 🧅 onion cook food spice
 🍄 mushroom plant vegetable
+🍄‍🟫 brown mushroom plant vegetable
 🥜 peanuts food nut
 🌰 chestnut food squirrel
 🍞 bread food wheat breakfast toast
@@ -1221,7 +1236,8 @@ exit
 🗜️ clamp tool
 ⚖️ balance scale law fairness weight
 🦯 probing cane accessibility
-🔗 link rings url
+🔗 link rings url chain
+⛓️‍💥 broken chain unluck
 ⛓️ chains lock arrest
 🧰 toolbox tools diy fix maintainer mechanic
 🧲 magnet attraction magnetic
