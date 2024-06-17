@@ -9,7 +9,7 @@
 # Wofi app launcher config file
 
 show=drun
-width=30%
+width=50%
 height=65%
 prompt=Pesquisar...
 normal_window=true
