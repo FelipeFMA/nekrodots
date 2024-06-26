@@ -1,19 +1,19 @@
 {
     "label" : "shutdown",
     "action" : "systemctl poweroff",
-    "text" : "Desligar ",
+    "text" : "Shut Down ",
     "keybind" : "d"
 }
 {
     "label" : "reboot",
     "action" : "systemctl reboot",
-    "text" : "Reiniciar ",
+    "text" : "Reboot ",
     "keybind" : "r"
 }
 {
     "label" : "suspend",
     "action" : "systemctl suspend",
-    "text" : "Suspender ",
+    "text" : "Suspend ",
     "keybind" : "s"
 }
 {

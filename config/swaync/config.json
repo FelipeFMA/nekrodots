@@ -48,16 +48,16 @@
   "widget-config": {
     "inhibitors": {
       "text": "Inhibitors",
-      "button-text": "Limpar tudo",
+      "button-text": "Clear",
       "clear-all-button": true
     },
     "title": {
-      "text": "Notificações",
+      "text": "Notifications",
       "clear-all-button": true,
-      "button-text": "Limpar tudo"
+      "button-text": "Clear"
     },
     "dnd": {
-      "text": "Não perturbe"
+      "text": "Do not disturb"
     },
     "label": {
       "max-lines": 5,
