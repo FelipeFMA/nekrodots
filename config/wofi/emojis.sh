@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-EMOJI="$(sed '1,/^### DATA ###$/d' $0 | wofi -p "Procurar emojis..." --show dmenu -c ~/.config/wofi/launcher.txt -i | cut -d ' ' -f 1 | tr -d '\n')"
+EMOJI="$(sed '1,/^### DATA ###$/d' $0 | wofi -p "Search for emojis..." --show dmenu -c ~/.config/wofi/launcher.txt -i | cut -d ' ' -f 1 | tr -d '\n')"
 wtype "$EMOJI"; wl-copy "$EMOJI"
 exit
 ### DATA ###

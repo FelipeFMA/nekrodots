@@ -11,7 +11,7 @@
 show=dmenu
 width=70%
 height=65%
-prompt=Pesquisar...
+prompt=Search...
 normal_window=true
 location=center
 gtk-dark=true
