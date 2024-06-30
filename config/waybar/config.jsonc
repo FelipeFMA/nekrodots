@@ -12,13 +12,12 @@
         "tray",
         "pulseaudio",
         "network",
-	"bluetooth",
+	      "bluetooth",
         "battery",
         "clock",
-	"custom/notification"
+	      "custom/notification"
     ],
     "tray": {
-        // "icon-size": 21,
         "spacing": 10
     },
     "clock": {
@@ -43,7 +42,7 @@
         "format-wifi": "  {signalStrength}%",
 	    "format-ethernet": "  {ipaddr}/{cidr}",
         "format-disconnected": "  Desconectado",
-        "on-click": "alacritty -e sh -c nmtui" 
+        "on-click": "kitty nmtui" 
    },
     "pulseaudio": {
         "scroll-step": 5, // %, can be a float
@@ -100,4 +99,3 @@
         "on-click": "wofi -c ~/.config/wofi/launcher.txt"
     }
 }
-
