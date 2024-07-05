@@ -1,0 +1,101 @@
+// -*- mode: jsonc -*-
+{
+    "spacing": 4,
+    "modules-left": [
+        "custom/wofi",
+        "custom/weather",
+    ],
+    "modules-center": [
+        "hyprland/workspaces",
+    ],
+    "modules-right": [
+        "tray",
+        "pulseaudio",
+        "network",
+	      "bluetooth",
+        "battery",
+        "clock",
+	      "custom/notification"
+    ],
+    "tray": {
+        "spacing": 10
+    },
+    "clock": {
+        "timezone": "America/Sao_Paulo",
+	"format": "  {:%I:%M %p}",
+        "format-alt": "  {:%d/%m/%Y}"
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-full": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{icon} {time}",
+        "format-icons": [" ", " ", " ", " ", " "]
+    },
+    "network": {
+        "format-wifi": "  {signalStrength}%",
+	    "format-ethernet": "  {ipaddr}/{cidr}",
+        "format-disconnected": "  Desconectado",
+        "on-click": "kitty nmtui" 
+   },
+    "pulseaudio": {
+        "scroll-step": 5, // %, can be a float
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon} ",
+        "format-bluetooth-muted": "󰝟  Mute",
+        "format-muted": "󰝟 Mute",
+        "format-icons": {
+            "headphone": " ",
+            "hands-free": " ",
+            "headset": " ",
+            "phone": " ",
+            "portable": " ",
+            "car": " ",
+            "default": [" ", " ", " "]
+        },
+	"on-click": "pavucontrol"
+    },
+    "bluetooth": {
+	    "format": "",
+	    "format-disabled": "󰂲",
+	    "format-connected": "󰂱",
+	    "on-click": "blueman-manager"
+    },
+    "custom/weather": {
+        "format": "{}",
+        "tooltip": false,
+        "interval": 60,
+        "exec": "wttrbar --custom-indicator '{ICON} {temp_C}ºC'",
+        "return-type": "json"
+    },
+    "custom/notification": {
+        "tooltip": false,
+        "format": "{icon}",
+        "format-icons": {
+            "notification": "",
+            "none": "",
+            "dnd-notification": "",
+            "dnd-none": "",
+            "inhibited-notification": "",
+            "inhibited-none": "",
+            "dnd-inhibited-notification": "",
+            "dnd-inhibited-none": "" 
+            },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
+    },
+    "custom/wofi": {
+        "format": "󰣇",
+        "on-click": "wofi -c ~/.config/wofi/launcher.txt"
+    }
+}

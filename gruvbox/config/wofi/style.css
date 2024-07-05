@@ -1,0 +1,53 @@
+/*
+
+██╗    ██╗ ██████╗ ███████╗██╗
+██║    ██║██╔═══██╗██╔════╝██║
+██║ █╗ ██║██║   ██║█████╗  ██║
+██║███╗██║██║   ██║██╔══╝  ██║
+╚███╔███╔╝╚██████╔╝██║     ██║
+ ╚══╝╚══╝  ╚═════╝ ╚═╝     ╚═╝
+
+Wofi Config File by Arfan Zubi
+Gruvbox edition by Felipe Avelar
+
+*/
+
+window {
+    padding: 50px;
+    background-color: rgba(40, 40, 40, 0.95);
+    font-family: 'SauceCodePro Nerd Font';
+    font-size: 15px;
+}
+
+#input {
+    margin: 20px 15px;
+    padding: 10px 20px;
+    background-color: #3c3836;
+    border: none;
+    color: #ebdbb2;
+}
+
+#input:focus {
+    box-shadow: none;
+}
+
+#inner-box {
+    margin: 0 15px;
+}
+
+#img {
+    margin: 10px;
+}
+
+#entry:selected {
+    background-color: #d5c4a1;
+    border-radius: 5px;
+}
+
+#text {
+    color: #ebdbb2;
+}
+
+#text:selected {
+    color: #282828;
+}

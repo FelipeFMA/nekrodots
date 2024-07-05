@@ -1,0 +1,9 @@
+set titlecolor white black
+set numbercolor white black
+set nohelp
+
+include /usr/share/nano/*.nanorc
+include /usr/share/nano/extra/*.nanorc
+
+set linenumbers
+
