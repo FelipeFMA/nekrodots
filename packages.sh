@@ -27,4 +27,6 @@ done < "$1"
 result=$(echo "$result" | sed 's/ *$//')
 
 # print the result
+echo
 echo "$result"
+exho
