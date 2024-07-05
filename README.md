@@ -1,4 +1,5 @@
-# NekroDots
+# nekrodots 🐧
+
 **⚠️ Disclaimer: Configurations in this repository are adapted for my specific hardware and needs. If you intend to replicate it, be aware that tweaking will be necessary.**
 
 **⚠️ Disclaimer 2: My dots are usually up to date but the info on the readme can be old.**
@@ -6,7 +7,7 @@
 **⚠️ Disclaimer 3: There is the Monochromatic version (old) and the Gruvbox version (new). The README assumes you want to install the Gruvbox one.**
 
 <details>
-  <summary>📸 Click here for the Monochromatic version preview</summary>
+  <summary>⚫ Click here for the Monochromatic version preview</summary>
 
 ![desktop](https://github.com/FelipeFMA/nekrodots/assets/30672253/5281c631-40fb-4bc3-a7fe-e21a7d516dbd)
 
@@ -17,7 +18,7 @@ https://github.com/FelipeFMA/nekrodots/assets/30672253/bc1f6102-ebe5-4178-9a55-3
 </details>
 
 <details>
-  <summary>📸 Click here for the Gruvbox version preview</summary>
+  <summary>🟠 Click here for the Gruvbox version preview</summary>
 
 ![desktop](https://github.com/FelipeFMA/nekrodots/assets/30672253/fc7c3624-12eb-4aea-a12b-bfaf648646fe)
 
