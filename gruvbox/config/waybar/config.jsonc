@@ -96,6 +96,7 @@
     },
     "custom/wofi": {
         "format": "󰣇",
-        "on-click": "wofi -c ~/.config/wofi/launcher.txt"
+        "on-click": "wofi -c ~/.config/wofi/launcher.txt",
+        "tooltip": false
     }
 }
