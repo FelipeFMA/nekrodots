@@ -1,1 +1,2 @@
-# TODO
+Todo: - Update swaync
+      - A readme
