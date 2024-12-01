@@ -14,6 +14,7 @@
         "network",
 	      "bluetooth",
         "battery",
+        "battery#bat1",
         "clock",
 	      "custom/notification"
     ],
@@ -26,6 +27,7 @@
         "format-alt": "  {:%d/%m/%Y}"
     },
     "battery": {
+        "bat":"BAT0",
         "states": {
             "good": 95,
             "warning": 30,
@@ -36,11 +38,27 @@
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
         "format-alt": "{icon} {time}",
-        "format-icons": [" ", " ", " ", " ", " "]
+        "format-icons": [" ", " ", " ", " ", " "],
+        "tooltip-format": "{time}"
+    },
+    "battery#bat1": {
+        "bat":"BAT1",
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-full": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{icon} {time}",
+        "format-icons": [" ", " ", " ", " ", " "],
+        "tooltip-format": "{time}"
     },
     "network": {
         "format-wifi": "  {signalStrength}%",
-	    "format-ethernet": "  {ipaddr}/{cidr}",
+	      "format-ethernet": "  {ipaddr}/{cidr}",
         "format-disconnected": "  Desconectado",
         "on-click": "kitty nmtui" 
    },
@@ -65,7 +83,7 @@
 	    "format": "",
 	    "format-disabled": "󰂲",
 	    "format-connected": "󰂱",
-	    "on-click": "blueman-manager"
+	    "on-click": "blueberry"
     },
     "custom/weather": {
         "format": "{}",
