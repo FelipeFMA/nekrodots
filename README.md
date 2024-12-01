@@ -1,2 +1,4 @@
-Todo: - Update swaync
-      - A readme
+Todo:
+- Update swaync
+- Make a volume and brightness popup
+- Make README
