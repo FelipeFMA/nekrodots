@@ -1,6 +1,6 @@
 #!/bin/sh
+# Screenshot helper for Wayland compositors (Sway, Hyprland, etc.).
 # Modified by FelipeFMA
-# Based on Swayshot
 
 if [ -z $WAYLAND_DISPLAY ]; then
     (>&2 echo "Wayland is not running")
