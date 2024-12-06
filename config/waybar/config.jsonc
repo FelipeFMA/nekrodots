@@ -4,12 +4,12 @@
     "modules-left": [
         "custom/wofi",
         "custom/weather",
+        "tray"
     ],
     "modules-center": [
         "hyprland/workspaces",
     ],
     "modules-right": [
-        "tray",
         "pulseaudio",
         "network",
 	      "bluetooth",

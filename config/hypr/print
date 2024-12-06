@@ -17,15 +17,11 @@ SCREENSHOT_FULLNAME="$SCREENSHOT_DIR"/screenshot_${SCREENSHOT_TIMESTAMP}.png
 make_screenshot() {
     case "$1" in
         -h|--help)
-            echo 'Usage: screenshot [display|window|region]'
+            echo 'Usage: screenshot [display|region]'
             return 0
             ;;
         region)
             grim -g "$(slurp -b '#AFAFAFAF' -c '#FF3F3FAF' -s '#00000000' -w 3 -d)" "$2"
-            ;;
-        window)
-            # Hyprland-specific command to get the focused window's geometry
-            grim -g "$(hyprctl clients -j | jq -r '.[] | select(.focused == true) | "\(.at[0]),\(.at[1]) \(.size[0])x\(.size[1])"')" "$2"
             ;;
         *)
             # Capture the entire focused output

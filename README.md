@@ -1,6 +1,4 @@
 Todo:
-- Update swaync
-- Make a volume and brightness popup
-- Improve hyprland.conf formatting
-- Printscreen script
-- Make README
+- Fix swaync config on low-res screens.
+- Make a volume and brightness popup.
+- Make README.
