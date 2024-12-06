@@ -44,54 +44,7 @@
         "mpris": {
             "image-size": 96,
             "image-radius": 7
-        },
-        "volume": {
-            "label": "󰕾",
-			"show-per-app": true
-        },
-        "buttons-grid": {
-            "actions": [
-                {
-                    "label": "󰐥",
-                    "command": "systemctl poweroff"
-                },
-                {
-                    "label": "",
-                    "command": "systemctl reboot"
-                },
-                {
-                    "label": "󰌾",
-                    "command": "hyprlock"
-                },
-                {
-                    "label": "󰍃",
-                    "command": "hyprctl dispatch exit"
-                },
-                {
-                    "label": "",
-                    "command": "systemctl suspend"
-                },
-                {
-                    "label": "󰕾",
-                    "command": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
-                },
-                {
-                    "label": "󰍬",
-                    "command": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
-                },
-                {
-                    "label": "",
-                    "command": "$HOME/.local/bin/shved/rofi-menus/wifi-menu.sh"
-                },
-                {
-                    "label": "󰂯",
-                    "command": "blueman-manager"
-                },
-                {
-                    "label": "󰑋",
-                    "command": "obs"
-                }
-            ]
-        }
     }
+  }
 }
+   
