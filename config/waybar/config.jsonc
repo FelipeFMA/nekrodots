@@ -4,7 +4,9 @@
     "modules-left": [
         "custom/wofi",
         "custom/weather",
-        "tray"
+        "tray",
+        "battery",
+        "battery#bat1"
     ],
     "modules-center": [
         "hyprland/workspaces",
@@ -13,8 +15,6 @@
         "pulseaudio",
         "network",
 	      "bluetooth",
-        "battery",
-        "battery#bat1",
         "clock",
 	      "custom/notification"
     ],
@@ -58,7 +58,7 @@
     },
     "network": {
         "format-wifi": "  {signalStrength}%",
-	      "format-ethernet": "  {ipaddr}/{cidr}",
+	      "format-ethernet": "  Connected",
         "format-disconnected": "  Desconectado",
         "on-click": "kitty nmtui" 
    },
@@ -114,7 +114,6 @@
     },
     "custom/wofi": {
         "format": "󰣇",
-        "on-click": "wofi -c ~/.config/wofi/launcher.txt",
         "tooltip": false
     }
 }
