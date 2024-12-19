@@ -23,8 +23,9 @@
     },
     "clock": {
         "timezone": "America/Sao_Paulo",
-	"format": "  {:%I:%M %p}",
-        "format-alt": "  {:%d/%m/%Y}"
+	      "format": "  {:%I:%M %p}",
+        "format-alt": "  {:%d/%m/%Y}",
+        "tooltip": false
     },
     "battery": {
         "bat":"BAT0",
