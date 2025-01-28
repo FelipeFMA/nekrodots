@@ -1,31 +1,45 @@
-// -*- mode: jsonc -*-
 {
+    "layer": "top",
+    "position": "top",
+    "height": 30,
     "spacing": 4,
-    "modules-left": [
-        "custom/wofi",
-        "custom/weather",
-        "tray",
-        "battery",
-        "battery#bat1"
-    ],
-    "modules-center": [
-        "hyprland/workspaces",
-    ],
-    "modules-right": [
-        "pulseaudio",
-        "network",
-	      "bluetooth",
-        "clock",
-	      "custom/notification"
-    ],
+    "modules-left": ["hyprland/workspaces", "battery", "battery#bat1"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray", "pulseaudio", "network", "bluetooth"],
+
     "tray": {
         "spacing": 10
     },
     "clock": {
+        "format": "{:%I:%M %p}",
+        "format-alt": "{:%d/%m/%Y}",
         "timezone": "America/Sao_Paulo",
-	      "format": "  {:%I:%M %p}",
-        "format-alt": "  {:%d/%m/%Y}",
-        "tooltip": false
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode": "month",
+            "format": {
+                "months":     "<span color='#cecece'><b>{}</b></span>",
+                "days":       "<span color='#dadada'><b>{}</b></span>",
+                "weekdays":   "<span color='#cecece'><b>{}</b></span>",
+                "today":      "<span color='#ffffff'><b><u>{}</u></b></span>"
+            }
+        }
+    },
+    "cpu": {
+        "format": "{usage}%  ",
+    },
+    "memory": {
+        "format": "{}%  "
+    },
+    "temperature": {
+        "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+        "critical-threshold": 80,
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["", "", ""]
+    },
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "format-icons": ["󰃞 ", "󰃠 "]
     },
     "battery": {
         "bat":"BAT0",
@@ -49,26 +63,29 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon} {capacity}%",
-        "format-full": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
-        "format-alt": "{icon} {time}",
-        "format-icons": [" ", " ", " ", " ", " "],
-        "tooltip-format": "{time}"
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}%  ",
+        "format-alt": "{time} {icon}",
+        "format-icons": [" ", " ", " ", " ", " "]
+    },
+    "battery#bat2": {
+        "bat": "BAT2"
     },
     "network": {
-        "format-wifi": "  {signalStrength}%",
-	      "format-ethernet": "  Connected",
-        "format-disconnected": "  Desconectado",
-        "on-click": "kitty nmtui" 
+        "format-wifi": "  {essid} ({signalStrength}%)",
+        "format-ethernet": "󰈀  {ipaddr}/{cidr}",
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+        "format-linked": "  {ifname} (No IP)",
+        "format-disconnected": " Disconnected",
+        "on-click": "sleep 0.01 && footclient nmtui"
    },
     "pulseaudio": {
-        "scroll-step": 5, // %, can be a float
+        "scroll-step": 5,
         "format": "{icon} {volume}%",
         "format-bluetooth": "{icon} {volume}%",
-        "format-bluetooth-muted": "󰝟  Mute",
-        "format-muted": "󰝟 Mute",
+        "format-bluetooth-muted": "󰝟  Muted",
+        "format-muted": "󰝟  Muted",
         "format-icons": {
             "headphone": " ",
             "hands-free": " ",
@@ -76,45 +93,14 @@
             "phone": " ",
             "portable": " ",
             "car": " ",
-            "default": [" ", " ", " "]
+            "default": ["", "", " "]
         },
 	"on-click": "pavucontrol"
     },
     "bluetooth": {
-	    "format": "",
-	    "format-disabled": "󰂲",
-	    "format-connected": "󰂱",
+	    "format": " On",
+	    "format-disabled": "󰂲 Off",
+	    "format-connected": "󰂱 Connected",
 	    "on-click": "blueberry"
-    },
-    "custom/weather": {
-        "format": "{}",
-        "tooltip": false,
-        "interval": 60,
-        "exec": "wttrbar --custom-indicator '{ICON} {temp_C}ºC'",
-        "return-type": "json"
-    },
-    "custom/notification": {
-        "tooltip": false,
-        "format": "{icon}",
-        "format-icons": {
-            "notification": "",
-            "none": "",
-            "dnd-notification": "",
-            "dnd-none": "",
-            "inhibited-notification": "",
-            "inhibited-none": "",
-            "dnd-inhibited-notification": "",
-            "dnd-inhibited-none": "" 
-            },
-        "return-type": "json",
-        "exec-if": "which swaync-client",
-        "exec": "swaync-client -swb",
-        "on-click": "swaync-client -t -sw",
-        "on-click-right": "swaync-client -d -sw",
-        "escape": true
-    },
-    "custom/wofi": {
-        "format": "󰣇",
-        "tooltip": false
     }
 }

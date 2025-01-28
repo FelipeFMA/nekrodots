@@ -1,28 +1,43 @@
 # By: Felipe Avelar
+# https://github.com/FelipeFMA/nekrodots-sway
+
 # ~/.bashrc
 
-# Comment if not using autologin.
-if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-  sleep 1 && Hyprland
-fi
-
+# Small fetch when opening terminal
 echo
 fastfetch -l small
 echo
 
-PS1='\[\e[38;2;168;153;132m\]$(if [ "$PWD" == "$HOME" ]; then echo -e " \[\e[38;2;168;153;132m\]~"; else echo -e " \[\e[38;2;168;153;132m\]\w"; fi)\n\[\e[m\] > '
 
+# Pretty sudo prompt
+alias sudo='sudo '
 
-alias sudo='sudo -p "Password: " '
+# fastfetch small logo
 alias fastfetch='fastfetch -l small'
+
+# Colored grep
 alias grep='grep --color=auto'
+
+# bat instead of cat
 alias cat='bat'
+
+# lsd instead of ls
 alias ls='lsd'
 alias la='lsd -a'
 alias l='lsd -l'
 alias ll='lsd -la'
-alias felipao='clear; ssh felipe@xxx.xxx.xxx.xx'
-alias avavelar='clear; ssh felipe@xxx.xxx.xxx.xx'
+
+# SSH to my servers
+alias felipao='clear; ssh felipe@134.65.28.106'
+alias avavelar='clear; ssh felipe@204.216.164.72'
+
+# Binds to Helix and Vim
 alias h='helix'
-alias ai='tgpt --provider groq --model Mixtral-8x7b-32768 --key xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+alias v='vim'
+
+# Case insentive completion for bash
 bind 'set completion-ignore-case on'
+
+
+# PS1
+PS1='\[\e[1;34m\]$(if [ "$PWD" == "$HOME" ]; then echo -e "\[\e[0;90m\]~"; else echo -e "\[\e[0;90m\]\w"; fi)\n\[\e[m\]> '
