@@ -28,8 +28,8 @@ alias l='lsd -l'
 alias ll='lsd -la'
 
 # SSH to my servers
-alias felipao='clear; ssh felipe@134.65.28.106'
-alias avavelar='clear; ssh felipe@204.216.164.72'
+alias felipao='clear; ssh felipe@xxx.xxx.xxx.xx'
+alias avavelar='clear; ssh felipe@xxx.xxx.xxx.xx'
 
 # Binds to Helix and Vim
 alias h='helix'
