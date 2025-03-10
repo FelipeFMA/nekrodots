@@ -82,7 +82,7 @@
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
         "format-linked": "  {ifname} (No IP)",
         "format-disconnected": " Disconnected",
-        "on-click": "sleep 0.01 && footclient nmtui"
+        "on-click": "sleep 0.01 && kitty nmtui"
    },
     "pulseaudio": {
         "scroll-step": 5,

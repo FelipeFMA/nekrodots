@@ -1,9 +1,6 @@
 #!/bin/bash
-# dunstMixer
 
 msgId="3378424"
-
-pamixer "$@" > /dev/null
 
 volume="$(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}' | sed 's/%//')"
 mute="$(pactl get-sink-mute @DEFAULT_SINK@ | awk '{print $2}')"

@@ -31,8 +31,8 @@ window#waybar.chromium {
 
 #workspaces button {
     padding: 0 5px;
-    background-color: #1b1b1b;
-    color: #f5f5f5;
+    background-color: #1e1e2e;
+    color: #cba6f7;
     padding-bottom: 4px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
@@ -46,8 +46,8 @@ window#waybar.chromium {
 }
 
 #workspaces button.active {
-    background-color: #f5f5f5;
-    color: #1b1b1b;
+    background-color: #cba6f7;
+    color: #1e1e2e;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
@@ -57,11 +57,13 @@ window#waybar.chromium {
 }
 
 #mode {
-    background-color: #1b1b1b;
+    background-color: #1e1e2e;
     margin: 0 4px;
 }
 
 #clock,
+#bluetooth,
+#tray,
 #battery,
 #cpu,
 #memory,
@@ -71,13 +73,13 @@ window#waybar.chromium {
 #network,
 #pulseaudio,
 #custom-media,
-#tray,
 #mode,
+#pulseaudio,
 #idle_inhibitor,
 #mpd {
     padding: 0 10px;
-    color: #f5f5f5;
-    background-color: #1b1b1b;
+    color: #cba6f7;
+    background-color: #1e1e2e;
 }
 
 #window,
@@ -88,7 +90,7 @@ window#waybar.chromium {
 
 .modules-right * {
     margin: 0;
-    background-color: #1b1b1b;
+    background-color: #1e1e2e;
 }
 
 .modules-left > widget:first-child > #workspaces {
@@ -97,70 +99,4 @@ window#waybar.chromium {
 
 .modules-right > widget:last-child > #workspaces {
     margin-right: 0;
-}
-
-#clock {
-    background-color: #f5f5f5;
-    color: #1b1b1b;
-    font-weight: bold;
-}
-
-#battery.charging, #battery.plugged {
-    background-color: #adda78;
-    color: #000000
-}
-
-@keyframes blink {
-    to {
-        background-color: #f5f5f5;
-        color: #000000;
-    }
-}
-
-#battery.critical:not(.charging) {
-    background-color: #fd6883;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-label:focus {
-    background-color: #000000;
-}
-
-#network.disconnected {
-    background-color: #f5f5f5;
-    color: #1b1b1b
-}
-
-#pulseaudio {
-    background-color: #f5f5f5;
-    color: #1b1b1b;
-    font-weight: bold;
-}
-
-#pulseaudio.muted {
-    background-color: #1b1b1b;
-    color: #f5f5f5;
-    font-weight: normal;
-}
-
-#custom-media {
-    background-color: #1b1b1b;
-    margin: 0 4px;
-}
-
-#temperature.critical {
-    background-color: #fd6883;
-}
-
-#tray {
-    color: #f5f5f5;
-}
-
-#bluetooth {
-    padding: 0 10px;
-    color: #f5f5f5;
 }
