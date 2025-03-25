@@ -64,10 +64,11 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}%  ",
-        "format-alt": "{time} {icon}",
+        "format": "{icon} {capacity}%",
+        "format-full": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{icon} {time}",
         "format-icons": [" ", " ", " ", " ", " "],
         "tooltip-format": "{time}",
         "interval": 1
@@ -77,12 +78,12 @@
         "bat": "BAT2"
     },
     "network": {
-        "format-wifi": "  {essid} ({signalStrength}%)",
-        "format-ethernet": "󰈀  {ipaddr}/{cidr}",
+        "format-wifi": "   {essid} ({signalStrength}%)",
+        "format-ethernet": "󰈀  Connected",
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
         "format-linked": "  {ifname} (No IP)",
-        "format-disconnected": " Disconnected",
-        "on-click": "sleep 0.01 && kitty nmtui"
+        "format-disconnected": "  Disconnected",
+        "on-click": "sleep 0.01 && footclient nmtui"
    },
     "pulseaudio": {
         "scroll-step": 5,
@@ -97,7 +98,7 @@
             "phone": " ",
             "portable": " ",
             "car": " ",
-            "default": ["", "", " "]
+            "default": ["", " ", "  "]
         },
 	"on-click": "pavucontrol"
     },

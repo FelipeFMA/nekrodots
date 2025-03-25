@@ -1,102 +1,35 @@
 * {
-    border: none;
-    /* `otf-font-awesome` is required to be installed for icons */
-    border-radius: 5px;
-    font-family: "JetBrainsMono Nerd Font";
-    font-size: 13px;
-    min-height: 0;
-    margin: 3px;
-    margin-bottom: 0;
+  font-family: "SF Pro";
+  font-size: 13px;
 }
 
 window#waybar {
-    background-color: rgba(0, 0, 0, 0);
-    color: rgba(0, 0, 0, 0);
-    transition-property: background-color;
-    transition-duration: .5s;
+  background-color: #1b1b1b;
 }
 
-window#waybar.hidden {
-    opacity: 0.2;
-}
-
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
-}
-
-#workspaces button {
-    padding: 0 5px;
-    background-color: #1e1e2e;
-    color: #cba6f7;
-    padding-bottom: 4px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
-}
-
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+  background: rgba(0, 0, 0, 0.2);
+  animation: gradient_f 20s ease-in infinite;
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #workspaces button.active {
-    background-color: #cba6f7;
-    color: #1e1e2e;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+  background-color: #ffffff;
+  color: #1b1b1b;
+  animation: gradient_f 20s ease-in infinite;
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
-}
-
-#mode {
-    background-color: #1e1e2e;
-    margin: 0 4px;
+  background-color: #eb4d4b;
 }
 
 #clock,
 #bluetooth,
 #tray,
 #battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#backlight,
 #network,
-#pulseaudio,
-#custom-media,
-#mode,
-#pulseaudio,
-#idle_inhibitor,
-#mpd {
-    padding: 0 10px;
-    color: #cba6f7;
-    background-color: #1e1e2e;
-}
-
-#window,
-#workspaces {
-    margin: 0 4px;
-    font-size: 4px;
-}
-
-.modules-right * {
-    margin: 0;
-    background-color: #1e1e2e;
-}
-
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
-}
-
-.modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
+#pulseaudio {
+  padding: 0 10px;
+  color: #ffffff;
 }

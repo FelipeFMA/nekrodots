@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Catppuccin Chrome Theme - Mocha Mauve",
+  "description": "Soothing pastel theme for Google Chrome - Catppuccin Mocha",
+  "version": "4.1",
+  "theme": {
+    "colors": {
+      "frame": [27, 27, 27],
+      "frame_inactive": [27, 27, 27],
+      "frame_incognito": [27, 27, 27],
+      "frame_incognito_inactive": [27, 27, 27],
+      "bookmark_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "tab_background_text_inactive": [200, 200, 200],
+      "tab_background_text_incognito": [255, 255, 255],
+      "tab_background_text_incognito_inactive": [200, 200, 200],
+      "tab_text": [255, 255, 255],
+      "toolbar": [45, 45, 45],
+      "toolbar_button_icon": [255, 255, 255],
+      "omnibox_text": [255, 255, 255],
+      "omnibox_background": [27, 27, 27],
+      "ntp_background": [27, 27, 27],
+      "ntp_link": [255, 255, 255],
+      "ntp_text": [255, 255, 255],
+      "button_background": [27, 27, 27]
+    }
+  }
+}
