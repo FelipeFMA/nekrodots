@@ -1,0 +1,12 @@
+2025-03-19 11:52:15.048 [info] 2025/03/19 11:52:15 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-03-19 11:52:15.278 [info] I0319 11:52:15.277633 42455 main.go:582] Setting GOMAXPROCS to 8
+2025-03-19 11:52:15.278 [info] I0319 11:52:15.277805 42455 main.go:799] Starting language server process with pid 42455
+2025-03-19 11:52:15.278 [info] I0319 11:52:15.277915 42455 server.go:255] Language server will attempt to listen on host 127.0.0.1
+2025-03-19 11:52:15.278 [info] I0319 11:52:15.278100 42455 server.go:262] Language server listening on random port at 42971
+2025-03-19 11:52:15.884 [info] I0319 11:52:15.884255 42455 server.go:338] Created extension server client at port 36377
+2025-03-19 11:52:17.715 [info] I0319 11:52:17.714407 42455 server.go:845] Local search is enabled, will index local files.
+2025-03-19 11:52:17.715 [info] I0319 11:52:17.714481 42455 server.go:849] Using 2 indexer workers
+2025-03-19 11:52:17.760 [info] (Windsurf) 2025-03-19 11:52:17.756 [INFO]: Language server started
+2025-03-19 11:52:17.920 [info] (Windsurf) 2025-03-19 11:52:17.920 [INFO]: LS lspClient started successfully
+2025-03-19 11:53:04.922 [info] I0319 11:53:04.922689 42455 server.go:1179] Exit requested on language server process 42455
+2025-03-19 11:53:04.923 [info] I0319 11:53:04.922790 42455 server.go:1156] Language server shutting down

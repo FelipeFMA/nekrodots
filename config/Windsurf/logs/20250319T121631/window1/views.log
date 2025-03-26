@@ -1,0 +1,17 @@
+2025-03-19 12:16:36.457 [info] Added views:outline in workbench.view.explorer
+2025-03-19 12:16:36.457 [info] Added views:workbench.view.search in workbench.view.search
+2025-03-19 12:16:36.457 [info] Added views:workbench.scm in workbench.view.scm
+2025-03-19 12:16:36.457 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2025-03-19 12:16:36.457 [info] Added views:workbench.panel.output in workbench.panel.output
+2025-03-19 12:16:36.457 [info] Added views:terminal in terminal
+2025-03-19 12:16:36.457 [info] Added views:timeline in workbench.view.explorer
+2025-03-19 12:16:36.457 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2025-03-19 12:16:36.698 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2025-03-19 12:16:37.201 [info] Added views:windsurf.chatPanelView in workbench.view.extension.windsurf
+2025-03-19 12:16:37.201 [info] Added views:windsurfDevContainers in workbench.view.remote
+2025-03-19 12:16:37.201 [info] Added views:windsurfSSHHosts in workbench.view.remote
+2025-03-19 12:16:38.141 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2025-03-19 12:16:38.910 [info] Added views:workbench.view.testing in workbench.view.extension.test
+2025-03-19 12:16:39.928 [info] Added views:workbench.scm.history in workbench.view.scm
+2025-03-19 12:16:43.429 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2025-03-19 12:16:43.578 [info] Added views:makefile.outline in workbench.view.extension.makefile__viewContainer

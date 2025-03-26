@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verus</title>
+  <link rel="icon" href="/public/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+      gap: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .button-group button {
+      width: 215px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="container">
+    <a href="index.html"><img src="verus.svg" alt="Verus Logo" style="width: 150px; height: auto;"></a>
+    <h1>Verus</h1>
+  </header>
+  <main class="container button-group">
+    <button id="loginBtn" onclick="location.href='login.html'">Fazer login</button>
+    <button id="signupBtn" onclick="location.href='register.html'">Criar conta</button>
+  </main>
+  <footer class="container">
+    <p style="font-size: 14px; color: #888;">Nenhuma informação coletada por meio desta plataforma será vendida ou
+      compartilhada.</p>
+    <div style="margin-top: 10px;">
+      <a href="https://github.com/FelipeFMA/verus" target="_blank" style="color: inherit; text-decoration: none;">Ver
+        código fonte</a>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

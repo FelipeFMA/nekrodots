@@ -1,0 +1,26 @@
+2025-03-19 12:14:27.432 [info] 2025/03/19 12:14:27 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-03-19 12:14:27.689 [info] I0319 12:14:27.688967 62686 main.go:581] Setting GOMAXPROCS to 4
+2025-03-19 12:14:27.689 [info] I0319 12:14:27.689142 62686 main.go:798] Starting language server process with pid 62686
+2025-03-19 12:14:27.689 [info] I0319 12:14:27.689191 62686 server.go:256] Language server will attempt to listen on host 127.0.0.1
+2025-03-19 12:14:27.689 [info] I0319 12:14:27.689326 62686 server.go:263] Language server listening on random port at 35251
+2025-03-19 12:14:28.328 [info] I0319 12:14:28.328510 62686 server.go:340] Created extension server client at port 37849
+2025-03-19 12:14:30.070 [info] I0319 12:14:30.070391 62686 server.go:849] Local search is enabled, will index local files.
+2025-03-19 12:14:30.070 [info] I0319 12:14:30.070438 62686 server.go:853] Using 2 indexer workers
+2025-03-19 12:14:30.112 [info] (Windsurf) 2025-03-19 12:14:30.107 [INFO]: Language server started
+2025-03-19 12:14:30.370 [info] (Windsurf) 2025-03-19 12:14:30.369 [INFO]: LS lspClient started successfully
+2025-03-19 12:14:48.141 [info] 2025/03/19 12:14:48 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-03-19 12:14:48.443 [info] I0319 12:14:48.440919 62846 main.go:581] Setting GOMAXPROCS to 4
+2025-03-19 12:14:48.443 [info] I0319 12:14:48.441180 62846 main.go:798] Starting language server process with pid 62846
+2025-03-19 12:14:48.443 [info] I0319 12:14:48.441259 62846 server.go:256] Language server will attempt to listen on host 127.0.0.1
+2025-03-19 12:14:48.443 [info] I0319 12:14:48.441414 62846 server.go:263] Language server listening on random port at 32887
+2025-03-19 12:14:49.064 [info] I0319 12:14:49.062606 62846 server.go:340] Created extension server client at port 44021
+2025-03-19 12:14:50.519 [info] I0319 12:14:50.519426 62846 server.go:849] Local search is enabled, will index local files.
+2025-03-19 12:14:50.519 [info] I0319 12:14:50.519472 62846 server.go:853] Using 2 indexer workers
+2025-03-19 12:14:50.558 [info] (Windsurf) 2025-03-19 12:14:50.550 [INFO]: Language server started
+2025-03-19 12:14:50.753 [info] (Windsurf) 2025-03-19 12:14:50.753 [INFO]: LS lspClient started successfully
+2025-03-19 12:14:51.029 [info] I0319 12:14:51.026018 62846 server.go:1184] Exit requested on language server process 62846
+2025-03-19 12:14:51.029 [info] I0319 12:14:51.027111 62846 server.go:1161] Language server shutting down
+2025-03-19 12:14:51.044 [info] (Windsurf) 2025-03-19 12:14:51.044 [ERROR]: LS lspClient stop error: Pending response rejected since connection got disposed
+2025-03-19 12:14:51.047 [info] (Windsurf) 2025-03-19 12:14:51.047 [INFO]: Language server exited with code 0
+2025-03-19 12:14:51.048 [info] (Windsurf) 2025-03-19 12:14:51.047 [INFO]: Terminating language server process
+2025-03-19 12:14:51.048 [info] (Windsurf) 2025-03-19 12:14:51.048 [INFO]: Successfully terminated language server

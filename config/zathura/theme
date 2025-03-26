@@ -1,0 +1,43 @@
+set default-fg                rgba(255,255,255,1)
+set default-bg 			          rgba(27,27,27,1)
+
+set completion-bg		          rgba(27,27,27,1)
+set completion-fg		          rgba(255,255,255,1)
+set completion-highlight-bg	  rgba(27,27,27,1)
+set completion-highlight-fg	  rgba(255,255,255,1)
+set completion-group-bg		    rgba(27,27,27,1)
+set completion-group-fg		    rgba(255,255,255,1)
+
+set statusbar-fg		          rgba(255,255,255,1)
+set statusbar-bg		          rgba(27,27,27,1)
+
+set notification-bg		        rgba(27,27,27,1)
+set notification-fg		        rgba(255,255,255,1)
+set notification-error-bg	    rgba(27,27,27,1)
+set notification-error-fg	    rgba(255,255,255,1)
+set notification-warning-bg	  rgba(27,27,27,1)
+set notification-warning-fg	  rgba(255,255,255,1)
+
+set inputbar-fg			          rgba(255,255,255,1)
+set inputbar-bg 		          rgba(27,27,27,1)
+
+# Enable recolor by default for dark mode
+set recolor                   "true"
+set recolor-keephue           "true"
+set recolor-lightcolor		    rgba(27,27,27,1)
+set recolor-darkcolor		      rgba(255,255,255,1)
+
+set index-fg			            rgba(255,255,255,1)
+set index-bg			            rgba(27,27,27,1)
+set index-active-fg		        rgba(255,255,255,1)
+set index-active-bg		        rgba(27,27,27,1)
+
+set render-loading-bg		      rgba(27,27,27,1)
+set render-loading-fg		      rgba(255,255,255,1)
+
+set highlight-color		        rgba(27,27,27,0.5)
+set highlight-fg              rgba(255,255,255,0.5)
+set highlight-active-color	  rgba(255,255,255,0.5)
+
+# Use 'r' key to toggle between dark mode and normal mode for images
+map r recolor

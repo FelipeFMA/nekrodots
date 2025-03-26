@@ -1,0 +1,15 @@
+2025-03-19 22:10:44.790 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-03-19 22:10:44.790 [info] Experiment 'pythonSurveyNotificationcf' is active
+2025-03-19 22:10:44.790 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-03-19 22:10:44.790 [info] Experiment 'pythonTestAdapter' is active
+2025-03-19 22:10:44.790 [warning] Dir "/home/felipe/Documents/Github/better-control/.pixi/envs" is not watchable (directory does not exist)
+2025-03-19 22:10:44.790 [info] Starting Environment refresh
+2025-03-19 22:10:44.790 [info] > hatch env show --json
+2025-03-19 22:10:44.790 [info] cwd: .
+2025-03-19 22:10:44.792 [info] Environments refresh finished (event): 39 milliseconds
+2025-03-19 22:10:44.792 [info] Environments refresh paths discovered: 39 milliseconds
+2025-03-19 22:10:44.794 [info] Environment refresh took 43 milliseconds
+2025-03-19 22:10:44.803 [info] > pyenv which python
+2025-03-19 22:10:44.803 [info] cwd: .
+2025-03-19 22:10:45.094 [info] Editor support is inactive since language server is set to None.
+2025-03-19 22:10:45.138 [info] Python interpreter path: /bin/python

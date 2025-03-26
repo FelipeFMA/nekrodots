@@ -1,0 +1,194 @@
+2025-03-19 12:14:23.733 [info] Extension host with pid 62499 started
+2025-03-19 12:14:23.733 [info] Skipping acquiring lock for /home/felipe/.config/Windsurf/User/workspaceStorage/ab8bcc2b51ab7d7907397eab069d6bee.
+2025-03-19 12:14:24.264 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-19 12:14:24.305 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onView:windsurf.chatPanelView', root cause: codeium.windsurf
+2025-03-19 12:14:24.310 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: Codeium.windsurfPyright
+2025-03-19 12:14:24.912 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onView:windsurf.chatPanelView', root cause: codeium.windsurf
+2025-03-19 12:14:25.236 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-19 12:14:25.332 [info] ExtensionService#_doActivateExtension Codeium.windsurfPyright, startup: false, activationEvent: 'onLanguage:python'
+2025-03-19 12:14:25.390 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-03-19 12:14:25.477 [info] ExtensionService#_doActivateExtension codeium.windsurf, startup: false, activationEvent: 'onView:windsurf.chatPanelView'
+2025-03-19 12:14:26.253 [info] ExtensionService#_doActivateExtension ms-vscode.makefile-tools, startup: true, activationEvent: 'workspaceContains:**/makefile,**/Makefile,**/GNUmakefile'
+2025-03-19 12:14:26.775 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-03-19 12:14:30.160 [info] Eager extensions activated
+2025-03-19 12:14:30.192 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 12:14:30.200 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 12:14:30.262 [info] ExtensionService#_doActivateExtension Codeium.windsurf-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 12:14:30.268 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 12:14:44.587 [info] Extension host terminating: renderer closed the MessagePort
+2025-03-19 12:14:44.628 [error] Canceled: Canceled
+	at new gM (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110636)
+	at zI.U (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:115248)
+	at n.<computed>.r.charCodeAt.n.<computed> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:112742)
+	at j_.g (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32334)
+	at j_.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31835)
+	at i.registerCommand.description (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31165)
+	at j_.h (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32854)
+	at j_.g (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31928)
+	at j_.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31835)
+	at Object.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:46064)
+	at up.O [as value] (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:953034)
+	at R.B (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at R.C (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at R.fire (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:973612)
+	at /home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:979720)
+	at Ww.<anonymous> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:19999)
+	at Ww.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20095)
+	at Ww.<anonymous> (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:955332)
+	at Ww.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20095)
+	at xs (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15150
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at kX.eb (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:12077)
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10031
+	at Array.map (<anonymous>)
+	at kX.$ (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10019)
+	at kX.terminate (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10262)
+	at P9.terminate (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at An (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15060)
+	at MessagePortMain.<anonymous> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11605)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2025-03-19 12:14:44.629 [error] Canceled: Canceled
+	at new gM (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110636)
+	at zI.U (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:115248)
+	at n.<computed>.r.charCodeAt.n.<computed> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:112742)
+	at j_.g (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32334)
+	at j_.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31835)
+	at i.registerCommand.description (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31165)
+	at j_.h (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32854)
+	at j_.g (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31928)
+	at j_.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31835)
+	at Object.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:46064)
+	at set hasGitHubRepositories (/home/felipe/Downloads/Windsurf/resources/app/extensions/github/dist/extension.js:2:321580)
+	at /home/felipe/Downloads/Windsurf/resources/app/extensions/github/dist/extension.js:2:322539
+	at up.value (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:1061875)
+	at R.B (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at R.C (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at R.fire (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:973612)
+	at /home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:979720)
+	at Ww.<anonymous> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:19999)
+	at Ww.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20095)
+	at Ww.<anonymous> (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:955332)
+	at Ww.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20095)
+	at xs (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15150
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at kX.eb (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:12077)
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10031
+	at Array.map (<anonymous>)
+	at kX.$ (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10019)
+	at kX.terminate (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10262)
+	at P9.terminate (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at An (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15060)
+	at MessagePortMain.<anonymous> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11605)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2025-03-19 12:14:44.633 [info] Extension host with pid 62499 exiting with code 0
+2025-03-19 12:14:45.466 [info] Extension host with pid 62741 started
+2025-03-19 12:14:45.466 [info] Skipping acquiring lock for /home/felipe/.config/Windsurf/User/workspaceStorage/ab8bcc2b51ab7d7907397eab069d6bee.
+2025-03-19 12:14:45.485 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-19 12:14:45.507 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: Codeium.windsurfPyright
+2025-03-19 12:14:45.749 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onView:windsurf.chatPanelView', root cause: codeium.windsurf
+2025-03-19 12:14:45.752 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-03-19 12:14:45.933 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onView:windsurf.chatPanelView', root cause: codeium.windsurf
+2025-03-19 12:14:46.174 [info] ExtensionService#_doActivateExtension Codeium.windsurfPyright, startup: false, activationEvent: 'onLanguage:python'
+2025-03-19 12:14:46.237 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-03-19 12:14:46.343 [info] ExtensionService#_doActivateExtension codeium.windsurf, startup: false, activationEvent: 'onView:windsurf.chatPanelView'
+2025-03-19 12:14:46.924 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-19 12:14:47.236 [info] ExtensionService#_doActivateExtension ms-vscode.makefile-tools, startup: true, activationEvent: 'workspaceContains:**/makefile,**/Makefile,**/GNUmakefile'
+2025-03-19 12:14:50.607 [info] Eager extensions activated
+2025-03-19 12:14:50.624 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 12:14:50.627 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 12:14:50.667 [info] ExtensionService#_doActivateExtension Codeium.windsurf-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 12:14:50.674 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 12:14:50.984 [info] Extension host terminating: renderer closed the MessagePort
+2025-03-19 12:14:51.018 [error] Canceled: Canceled
+	at new gM (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110636)
+	at zI.U (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:115248)
+	at n.<computed>.r.charCodeAt.n.<computed> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:112742)
+	at j_.g (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32334)
+	at j_.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31835)
+	at i.registerCommand.description (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31165)
+	at j_.h (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32854)
+	at j_.g (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31928)
+	at j_.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31835)
+	at Object.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:46064)
+	at up.O [as value] (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:953034)
+	at R.B (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at R.C (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at R.fire (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:973612)
+	at /home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:979720)
+	at Ww.<anonymous> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:19999)
+	at Ww.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20095)
+	at Ww.<anonymous> (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:955332)
+	at Ww.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20095)
+	at xs (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15150
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at kX.eb (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:12077)
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10031
+	at Array.map (<anonymous>)
+	at kX.$ (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10019)
+	at kX.terminate (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10262)
+	at P9.terminate (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at An (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15060)
+	at MessagePortMain.<anonymous> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11605)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2025-03-19 12:14:51.020 [error] Canceled: Canceled
+	at new gM (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110636)
+	at zI.U (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:115248)
+	at n.<computed>.r.charCodeAt.n.<computed> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:112742)
+	at j_.g (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32334)
+	at j_.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31835)
+	at i.registerCommand.description (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31165)
+	at j_.h (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32854)
+	at j_.g (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31928)
+	at j_.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31835)
+	at Object.executeCommand (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:46064)
+	at set hasGitHubRepositories (/home/felipe/Downloads/Windsurf/resources/app/extensions/github/dist/extension.js:2:321580)
+	at /home/felipe/Downloads/Windsurf/resources/app/extensions/github/dist/extension.js:2:322539
+	at up.value (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:1061875)
+	at R.B (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at R.C (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at R.fire (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:973612)
+	at /home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:979720)
+	at Ww.<anonymous> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:19999)
+	at Ww.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20095)
+	at Ww.<anonymous> (/home/felipe/Downloads/Windsurf/resources/app/extensions/git/dist/main.js:2:955332)
+	at Ww.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20095)
+	at xs (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15150
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at kX.eb (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:12077)
+	at file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10031
+	at Array.map (<anonymous>)
+	at kX.$ (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10019)
+	at kX.terminate (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10262)
+	at P9.terminate (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at An (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15060)
+	at MessagePortMain.<anonymous> (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11605)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2025-03-19 12:14:51.262 [info] Extension host with pid 62741 exiting with code 0

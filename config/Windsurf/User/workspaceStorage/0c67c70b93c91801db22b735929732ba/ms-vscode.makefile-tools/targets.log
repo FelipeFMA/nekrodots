@@ -1,0 +1,404 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Mar 13 19:01:14 2025
+
+# Variables
+
+# environment
+GDK_BACKEND = wayland
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/felipe
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/felipe/Documents/Github/better-control-rewrite
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/felipe
+# environment
+XDG_DATA_DIRS = /home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/felipe/.config/Windsurf/CachedData/724a915b3b4c73cea3d2c93fc85672d6aa3961e0
+# environment
+LANG = C
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS := /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+HYPRLAND_INSTANCE_SIGNATURE = 882f7ad7d2bbfc7440d0ccaef93b1cdd78e8e3ff_1741902526_623814549
+# makefile
+CURDIR := /home/felipe/Documents/Github/better-control-rewrite
+# makefile (from 'Makefile', line 5)
+SRCS = src/main.c src/wifi.c src/bluetooth.c src/audio.c src/brightness.c src/utils.c
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = Catppuccin Mocha Light
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 6072
+# environment
+MOZ_ENABLE_WAYLAND = 1
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+QT_QPA_PLATFORMTHEME = qt6ct
+# environment
+CHROME_DESKTOP = windsurf-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/windsurf/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 6)
+OBJS = $(SRCS:.c=.o)
+# makefile
+SHELL = /bin/sh
+ 
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 4
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+XDG_BACKEND = wayland
+# environment
+_JAVA_AWT_WM_NONREPARENTING = 1
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# environment
+AUR_PASSWORD = @Aletha010801
+# environment
+XDG_CURRENT_DESKTOP = Hyprland
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = Hyprland
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = felipe
+# environment
+HL_INITIAL_WORKSPACE_TOKEN = 22210424-8b31-46f7-9872-571d5512d1c4
+# environment
+HYPRLAND_CMD = hyprland
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+EDITOR = helix
+# environment
+DISPLAY = :0
+# environment
+USER = felipe
+# default
+MAKE_VERSION := 4.4.1
+# makefile (from 'Makefile', line 3)
+LDFLAGS = $(shell pkg-config --libs gtk4 dbus-1 dbus-glib-1) -lbluetooth
+# environment
+AUR_USERNAME = felipefmavelar@gmail.com
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 2)
+CFLAGS = -Wall -Wextra -g $(shell pkg-config --cflags gtk4 dbus-1 dbus-glib-1)
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/felipe
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-c10ae159-1.94-main.sock
+# environment
+TERM = linux
+# environment
+XDG_SESSION_ID = 1
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 7)
+TARGET = better-control
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver jobserver-fifo output-sync check-symlink guile load
+# makefile (from 'Makefile', line 1)
+CC = gcc
+# variable set hash-table stats:
+# Load=90/1024=9%, Rehash=0, Collisions=3/123=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (device 65024, inode 136570292): 9 files, no impossibilities so far.
+# . (device 65024, inode 1872478): 8 files, no impossibilities.
+
+# 17 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 17):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+src/wifi.o: src/wifi.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/wifi'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 19:00:08.510947501
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 17):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/audio.o: src/audio.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/audio'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 19:00:09.092604578
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 17):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 14:57:11.10595267
+#  File has been updated.
+#  Successfully updated.
+
+src/utils.o: src/utils.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/utils'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 19:00:09.658077108
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 17):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/bluetooth.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 14:57:11.10595267
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/audio.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 14:57:11.10595267
+#  File has been updated.
+#  Successfully updated.
+
+uninstall:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	rm -f $(DESTDIR)/usr/bin/$(TARGET)
+	rm -f $(DESTDIR)/usr/share/applications/control.desktop
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	rm -f $(OBJS) $(TARGET)
+
+# Not a target:
+src/wifi.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 14:57:11.10595267
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/main.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 14:57:11.10595267
+#  File has been updated.
+#  Successfully updated.
+
+src/main.o: src/main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/main'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 19:00:08.179604572
+#  File has been updated.
+#  Successfully updated.
+ 
+#  recipe to execute (from 'Makefile', line 17):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: better-control
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+src/brightness.o: src/brightness.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/brightness'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 19:00:09.370604579
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 17):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/bluetooth.o: src/bluetooth.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/bluetooth'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 19:00:08.80609413
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 17):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+better-control: src/main.o src/wifi.o src/bluetooth.o src/audio.o src/brightness.o src/utils.o
+#  Implicit rule search has not been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 19:00:09.828308598
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 14):
+	$(CC) $(OBJS) -o $(TARGET) $(LDFLAGS)
+
+install:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 23):
+	install -Dm755 $(TARGET) $(DESTDIR)/usr/bin/$(TARGET)
+	install -Dm644 src/control.desktop $(DESTDIR)/usr/share/applications/control.desktop
+
+# Not a target:
+src/utils.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 14:57:11.10595267
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all clean install uninstall
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/brightness.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-03-13 14:57:11.10595267
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=21/1024=2%, Rehash=0, Collisions=0/66=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 45 / storage = 453 B / avg = 10 B
+# current buf: size = 8162 B / used = 453 B / count = 45 / avg = 10 B
+
+# strcache performance: lookups = 70 / hit rate = 35%
+# hash-table stats:
+# Load=45/8192=1%, Rehash=0, Collisions=1/70=1%
+# Finished Make data base on Thu Mar 13 19:01:14 2025
+
+ 

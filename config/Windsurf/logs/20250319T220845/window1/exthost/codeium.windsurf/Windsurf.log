@@ -1,0 +1,20 @@
+2025-03-19 22:08:49.316 [info] 2025/03/19 22:08:49 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-03-19 22:08:49.398 [info] I0319 22:08:49.391776  6503 main.go:581] Setting GOMAXPROCS to 4
+2025-03-19 22:08:49.398 [info] I0319 22:08:49.392125  6503 main.go:798] Starting language server process with pid 6503
+2025-03-19 22:08:49.398 [info] I0319 22:08:49.392163  6503 server.go:256] Language server will attempt to listen on host 127.0.0.1
+2025-03-19 22:08:49.398 [info] I0319 22:08:49.392247  6503 server.go:263] Language server listening on random port at 46777
+2025-03-19 22:08:50.019 [info] I0319 22:08:50.018406  6503 server.go:340] Created extension server client at port 36935
+2025-03-19 22:08:51.229 [info] I0319 22:08:51.229284  6503 server.go:849] Local search is enabled, will index local files.
+2025-03-19 22:08:51.229 [info] I0319 22:08:51.229310  6503 server.go:853] Using 2 indexer workers
+2025-03-19 22:08:51.259 [info] (Windsurf) 2025-03-19 22:08:51.256 [INFO]: Language server started
+2025-03-19 22:08:51.349 [info] (Windsurf) 2025-03-19 22:08:51.349 [INFO]: LS lspClient started successfully
+2025-03-19 22:10:37.461 [info] 2025/03/19 22:10:37 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-03-19 22:10:37.556 [info] I0319 22:10:37.556175  7935 main.go:581] Setting GOMAXPROCS to 4
+2025-03-19 22:10:37.556 [info] I0319 22:10:37.556304  7935 main.go:798] Starting language server process with pid 7935
+2025-03-19 22:10:37.556 [info] I0319 22:10:37.556354  7935 server.go:256] Language server will attempt to listen on host 127.0.0.1
+2025-03-19 22:10:37.556 [info] I0319 22:10:37.556459  7935 server.go:263] Language server listening on random port at 35413
+2025-03-19 22:10:38.105 [info] I0319 22:10:38.105820  7935 server.go:340] Created extension server client at port 38947
+2025-03-19 22:10:38.921 [info] I0319 22:10:38.921337  7935 server.go:849] Local search is enabled, will index local files.
+2025-03-19 22:10:38.921 [info] I0319 22:10:38.921362  7935 server.go:853] Using 2 indexer workers
+2025-03-19 22:10:38.942 [info] (Windsurf) 2025-03-19 22:10:38.940 [INFO]: Language server started
+2025-03-19 22:10:38.978 [info] (Windsurf) 2025-03-19 22:10:38.978 [INFO]: LS lspClient started successfully

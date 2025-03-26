@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação - Verus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="index.html" class="button" style="position: fixed; top: 20px; left: 20px;">Voltar</a>
+    <div class="container" style="margin-top: 80px;">
+        <h1>Identificação</h1>
+        <p>Por favor, insira uma imagem do seu RG.</p>
+        <p style="color: #888; font-size: 14px;">Isso é feito para garantir que ninguém vote mais de uma vez e para garantir a integridade das enquetes.</p>
+        <br><br>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="rg">RG:</label>
+            <input type="file" id="rg" name="rg" accept="image/*" required style="display: none;">
+            <label for="rg" style="cursor: pointer; background-color: #ffffff; border-radius: 7px; padding: 12px 24px; font-size: 16px; font-family: 'Lora', serif; color: #888;">Clique aqui para selecionar um arquivo</label><br>
+            <input type="submit" value="Enviar">
+            <p style="color: #888; font-size: 14px; margin-top: 10px;">Nenhuma informação inserida será vendida ou compartilhada.</p>
+            <p style="color: #888; font-size: 14px; margin-top: 10px;">Sua privacidade é a prioridade.</p>
+        </form>
+    </div>
+</body>
+</html>

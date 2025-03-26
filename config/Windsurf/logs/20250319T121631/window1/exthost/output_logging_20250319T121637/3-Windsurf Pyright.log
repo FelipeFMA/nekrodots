@@ -1,0 +1,14 @@
+[Info  - 12:16:40 PM] windsurfPyright language server 1.28.0 starting
+[Info  - 12:16:40 PM] Server root directory: file:///home/felipe/.windsurf/extensions/codeium.windsurfpyright-1.28.0-universal/dist
+[Info  - 12:16:40 PM] Starting service instance "better-control"
+Received pythonPath from Python extension: /bin/python
+[Info  - 12:16:40 PM] Setting pythonPath for service "better-control": "/bin/python"
+[Info  - 12:16:40 PM] No include entries specified; assuming /home/felipe/Documents/Github/better-control
+[Info  - 12:16:40 PM] Auto-excluding **/node_modules
+[Info  - 12:16:40 PM] Auto-excluding **/__pycache__
+[Info  - 12:16:40 PM] Auto-excluding **/.*
+[Info  - 12:16:40 PM] Assuming Python version 3.13.2.final.0
+[Info  - 12:16:40 PM] Found 1 source file
+[Info  - 12:16:41 PM] Background analysis(1) root directory: file:///home/felipe/.windsurf/extensions/codeium.windsurfpyright-1.28.0-universal/dist
+[Info  - 12:16:41 PM] Background analysis(1) started
+[Info  - 12:16:43 PM] [BG(1)] Long operation: analyzing: file:///home/felipe/Documents/Github/better-control/src/control.py (2398ms)

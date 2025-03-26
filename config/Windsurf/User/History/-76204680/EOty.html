@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            gap: 20px;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .button-group button {
+            width: 215px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <img src="verus.svg" alt="Verus Logo" style="width: 150px; height: auto;">
+        <h1>Verus</h1>
+    </header>
+    <main class="container button-group">
+        <button id="anonymousBtn">Entrar anonimamente</button>
+        <button id="loginBtn">Fazer login</button>
+        <button id="signupBtn">Criar conta</button>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

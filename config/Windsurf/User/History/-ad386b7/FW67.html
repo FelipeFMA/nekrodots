@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Verus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        label {
+            display: block;
+        }
+
+        input[type="submit"] {
+            align-self: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="button" style="position: fixed; top: 20px; left: 20px;">Voltar</a>
+    <div class="container" style="margin-top: 80px;">
+        <h1>Login</h1>
+        <p>Por favor, insira suas credenciais para acessar sua conta.</p>
+        <br><br>
+        <form>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="abc" required oninvalid="this.setCustomValidity('Coloque um email válido')" oninput="this.setCustomValidity('')"><br>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="abc" required oninvalid="this.setCustomValidity('Preencha esse campo')" oninput="this.setCustomValidity('')"><br>
+            <input type="submit" value="Entrar">
+        </form>
+    </div>
+</body>
+</html>

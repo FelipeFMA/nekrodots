@@ -1,0 +1,4 @@
+set save-position true
+set save-zoom true
+
+include theme

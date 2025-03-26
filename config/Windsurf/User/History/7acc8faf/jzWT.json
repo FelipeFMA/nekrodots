@@ -1,0 +1,10 @@
+{
+    "windsurf.autocompleteSpeed": "fast",
+    "windsurf.autoExecutionPolicy": "off",
+    "windsurf.chatFontSize": "default",
+    "windsurf.rememberLastModelSelection": true,
+    "windsurf.openRecentConversation": true,
+    "windsurf.explainAndFixInCurrentConversation": true,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "git.autofetch": true
+}

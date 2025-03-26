@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Verus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        label {
+            display: block;
+        }
+
+        input[type="submit"] {
+            align-self: center;
+            margin-top: 10px;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #ffffff;
+            border-radius: 7px;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-family: 'Lora', serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <button class="back-button" onclick="window.location.href='index.html'">Voltar</button>
+    <div class="container">
+        <h1>Registro</h1>
+        <p>Por favor, preencha os campos abaixo para criar uma conta.</p>
+        <br><br>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="* Obrigatorio" required oninvalid="this.setCustomValidity('Preencha esse campo')" oninput="this.setCustomValidity('')"><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="* Obrigatorio" required oninvalid="this.setCustomValidity('Coloque um email válido')" oninput="this.setCustomValidity('')"><br>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="* Obrigatorio" required oninvalid="this.setCustomValidity('Preencha esse campo')" oninput="this.setCustomValidity('')"><br>
+            <label for="password-repeat">Repetir senha:</label>
+            <input type="password" id="password-repeat" name="password-repeat" placeholder="* Obrigatorio" required oninvalid="this.setCustomValidity('Preencha esse campo')" oninput="this.setCustomValidity('')"><br>
+            <input type="submit" value="Criar conta">
+        </form>
+    </div>
+</body>

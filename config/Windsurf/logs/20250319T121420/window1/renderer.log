@@ -1,0 +1,31 @@
+2025-03-19 12:14:22.757 [info] Started local extension host with pid 62499.
+2025-03-19 12:14:23.621 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, contribIssueReporter, notebookReplDocument
+2025-03-19 12:14:23.724 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-03-19 12:14:25.742 [error] App icon customization is not supported on this OS: Error: App icon customization is not supported on this OS
+    at Y8.setIcon (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:84:2589)
+    at Object.call (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:33:4877)
+    at t1.s (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:31:19890)
+    at t1.q (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:31:19413)
+    at Po.value (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:31:18815)
+    at x.B (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:30:732)
+    at x.C (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:30:802)
+    at x.fire (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:30:1019)
+    at Po.value (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:25:5323)
+    at x.B (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:30:732)
+    at x.fire (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:30:950)
+    at Po.value (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:25:5507)
+    at x.B (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:30:732)
+    at x.fire (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:30:950)
+    at W (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:25:7758)
+    at IpcMainImpl.s (file:///home/felipe/Downloads/Windsurf/resources/app/out/vs/code/electron-main/main.js:33:22565)
+    at IpcMainImpl.emit (node:events:519:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:82563)
+    at WebContents.emit (node:events:519:28)
+2025-03-19 12:14:27.219 [info] [perf] Render performance baseline is 47ms
+2025-03-19 12:14:29.865 [warning] Overlapping semantic tokens detected at lineNumber 22, column 20
+2025-03-19 12:14:44.649 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, contribIssueReporter, notebookReplDocument
+2025-03-19 12:14:44.804 [info] Started local extension host with pid 62741.

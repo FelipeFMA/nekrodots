@@ -1,0 +1,34 @@
+{
+    "visibility": {
+        "tab_visibility": {
+            "Battery": true,
+            "Wi-Fi": true,
+            "Bluetooth": true,
+            "Sound": true,
+            "Display": true,
+            "Settings": true
+        },
+        "Volume": true,
+        "Wi-Fi": true,
+        "Bluetooth": true,
+        "Battery": true
+    },
+    "positions": {
+        "Wi-Fi": 0,
+        "Bluetooth": 1,
+        "Volume": 2,
+        "Display": 3,
+        "Battery": 4,
+        "Settings": 5
+    },
+    "power_mode": "performance",
+    "gamma": 6500,
+    "last_active_tab": 1,
+    "tab_order": [
+        "Wi-Fi",
+        "Volume",
+        "Bluetooth",
+        "Display",
+        "Battery"
+    ]
+}

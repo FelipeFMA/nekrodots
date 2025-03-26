@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/felipe/Documents/Github/temp-converter-C'
+gcc -Wall -Wextra -Werror -std=c99 -o temp_converter temp.c
+make: Leaving directory '/home/felipe/Documents/Github/temp-converter-C'
+ 
