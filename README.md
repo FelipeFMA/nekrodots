@@ -1,7 +1,9 @@
 # NEKRODOTS
 
 <p align="center">
-  <img src="wallpapers/goth-anime.png" alt="Nekrodots Theme" width="600" />
+  
+![image](https://github.com/user-attachments/assets/4ede91e4-b418-4b1a-8def-5751656cf488)
+  
 </p>
 
 <div align="center">
