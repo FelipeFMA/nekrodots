@@ -2,8 +2,8 @@
 
 <p align="center">
   
-![image](https://github.com/user-attachments/assets/4ede91e4-b418-4b1a-8def-5751656cf488)
-  
+![image](https://github.com/user-attachments/assets/0f0ebdf2-cd64-485b-8f96-2313ea498606)
+
 </p>
 
 <div align="center">
