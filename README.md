@@ -1,4 +1,4 @@
-# NEKRODOTS
+# nekrodots
 
 <p align="center">
   
@@ -16,7 +16,7 @@
 
 ## ⚫ Overview
 
-`NEKRODOTS` is a minimalist, monochromatic dotfiles collection for Hyprland on Arch Linux. This configuration emphasizes a clean, distraction-free desktop experience with subtle elegance.
+`nekrodots` is a minimalist, monochromatic dotfiles collection for Hyprland on Arch Linux. This configuration emphasizes a clean, distraction-free desktop experience with subtle elegance.
 
 ---
 
