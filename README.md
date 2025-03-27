@@ -57,10 +57,10 @@
 <br>
 
 ### Desktop
-![Desktop](wallpapers/montains.jpg)
+![image](https://github.com/user-attachments/assets/d31f9b25-0e91-4438-b191-d1c205efc216)
 
 ### Terminal
-![Terminal Theme](wallpapers/t480.png)
+![image](https://github.com/user-attachments/assets/4063e19a-a205-4ab8-a5cf-0e3404e5022d)
 
 </details>
 
