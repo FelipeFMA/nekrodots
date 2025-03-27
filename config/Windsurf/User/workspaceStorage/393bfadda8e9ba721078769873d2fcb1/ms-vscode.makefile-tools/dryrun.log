@@ -1,7 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/felipe/Documents/Github/better-control'
-install -Dm755 src/control.py /usr/bin/control
-install -Dm644 src/control.desktop /usr/share/applications/control.desktop
-echo "Better Control installed successfully!"
-make: Leaving directory '/home/felipe/Documents/Github/better-control'
- 

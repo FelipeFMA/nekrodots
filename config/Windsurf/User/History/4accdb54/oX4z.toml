@@ -1,8 +1,0 @@
-[package]
-name = "gtk3_hello_window"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-gtk = "0.9.2"
-gdk = "0.13.2"

@@ -1,5 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/felipe/Documents/Github/gtkcalc'
-gcc -Wall -Wextra -g `pkg-config --cflags gtk+-3.0` -o calculator calculator.c `pkg-config --libs gtk+-3.0`
-make: Leaving directory '/home/felipe/Documents/Github/gtkcalc'
- 

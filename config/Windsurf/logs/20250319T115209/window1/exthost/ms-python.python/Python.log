@@ -1,9 +1,0 @@
-2025-03-19 11:52:13.890 [info] Experiment 'pythonRecommendTensorboardExt' is active
-2025-03-19 11:52:13.890 [info] Experiment 'pythonSurveyNotificationcf' is active
-2025-03-19 11:52:13.890 [info] Experiment 'pythonTerminalEnvVarActivation' is active
-2025-03-19 11:52:13.890 [info] Experiment 'pythonTestAdapter' is active
-2025-03-19 11:52:13.890 [warning] Dir "/home/felipe/Documents/Github/better-control/.pixi/envs" is not watchable (directory does not exist)
-2025-03-19 11:52:13.890 [info] Python interpreter path: /bin/python
-2025-03-19 11:52:14.078 [info] > pyenv which python
-2025-03-19 11:52:14.078 [info] cwd: .
-2025-03-19 11:52:14.256 [info] Editor support is inactive since language server is set to None.

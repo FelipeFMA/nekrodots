@@ -1,6 +1,0 @@
-2025-03-19 12:14:20.880 [info] update#setState idle
-2025-03-19 12:14:44.636 [info] Extension host with pid 62499 exited with code: 0, signal: unknown.
-2025-03-19 12:14:50.883 [info] update#setState checking for updates
-2025-03-19 12:14:51.075 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744073618338000, signal: unknown
-2025-03-19 12:14:51.100 [info] update#setState idle
-2025-03-19 12:14:51.262 [info] Extension host with pid 62741 exited with code: 0, signal: unknown.
