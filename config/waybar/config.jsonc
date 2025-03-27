@@ -55,7 +55,8 @@
         "format-alt": "{icon} {time}",
         "format-icons": [" ", " ", " ", " ", " "],
         "tooltip-format": "{time}",
-        "interval": 1
+        "interval": 1,
+        "on-click": "control -B"
     },
     "battery#bat1": {
         "bat":"BAT1",
@@ -71,7 +72,8 @@
         "format-alt": "{icon} {time}",
         "format-icons": [" ", " ", " ", " ", " "],
         "tooltip-format": "{time}",
-        "interval": 1
+        "interval": 1,
+        "on-click": "control -B"
         
     },
     "battery#bat2": {
@@ -83,7 +85,7 @@
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
         "format-linked": "  {ifname} (No IP)",
         "format-disconnected": "  Disconnected",
-        "on-click": "sleep 0.01 && footclient nmtui"
+        "on-click": "control -w"
    },
     "pulseaudio": {
         "scroll-step": 5,
@@ -100,12 +102,12 @@
             "car": " ",
             "default": ["", " ", "  "]
         },
-	"on-click": "pavucontrol"
+	"on-click": "control -V"
     },
     "bluetooth": {
 	    "format": " On",
 	    "format-disabled": "󰂲 Off",
 	    "format-connected": "󰂱 Connected",
-	    "on-click": "blueberry"
+	    "on-click": "control -b"
     }
 }
