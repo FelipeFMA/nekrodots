@@ -110,6 +110,6 @@ config/
   
   <p>Created with ♥ by Felipe Avelar</p>
   
-  [![GitHub](https://img.shields.io/github/followers/yourusername?label=Follow&style=social)](https://github.com/yourusername)
+  [![GitHub](https://img.shields.io/github/followers/FelipeFMA?label=Follow&style=social)](https://github.com/FelipeFMA)
   
 </div>
