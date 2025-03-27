@@ -95,22 +95,10 @@ config/
 └── dunst/            # Notification daemon
 ```
 
----
-
-## ⚫ Keybindings
-
-| Key Combination | Action |
-|-----------------|--------|
-| `SUPER + RETURN` | Open terminal |
-| `SUPER + Q` | Close active window |
-| `SUPER + Space` | Open application launcher |
-| `SUPER + [1-9]` | Switch to workspace |
-| `SUPER + SHIFT + [1-9]` | Move window to workspace |
-| `SUPER + L` | Lock screen |
 
 ---
 
-## ⚪ Acknowledgments
+## ⚫ Acknowledgments
 
 - Inspired by minimalist design principles
 - Thanks to the Hyprland community
