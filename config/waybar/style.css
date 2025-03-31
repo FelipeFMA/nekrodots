@@ -4,24 +4,22 @@
 }
 
 window#waybar {
-  background-color: #1b1b1b;
+  background-color: rgba(27, 27, 27, 0.9);
 }
 
 #workspaces button:hover {
-  background: rgba(0, 0, 0, 0.2);
-  animation: gradient_f 20s ease-in infinite;
-  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 7px;
 }
 
 #workspaces button.active {
   background-color: #ffffff;
   color: #1b1b1b;
-  animation: gradient_f 20s ease-in infinite;
-  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+  border-radius: 7px;
 }
 
 #workspaces button.urgent {
-  background-color: #eb4d4b;
+  background-color: #ff7674;
 }
 
 #clock,

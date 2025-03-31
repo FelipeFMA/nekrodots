@@ -3,7 +3,7 @@
     "position": "top",
     "height": 30,
     "spacing": 4,
-    "modules-left": ["hyprland/workspaces", "battery", "battery#bat1"],
+    "modules-left": ["hyprland/workspaces", "sway/mode", "battery", "battery#bat1"],
     "modules-center": ["clock"],
     "modules-right": ["tray", "pulseaudio", "network", "bluetooth"],
 
@@ -25,22 +25,6 @@
             }
         }
     },
-    "cpu": {
-        "format": "{usage}%  ",
-    },
-    "memory": {
-        "format": "{}%  "
-    },
-    "temperature": {
-        "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
-        "critical-threshold": 80,
-        "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
-    },
-    "backlight": {
-        "format": "{icon} {percent}%",
-        "format-icons": ["󰃞 ", "󰃠 "]
-    },
     "battery": {
         "bat":"BAT0",
         "states": {
@@ -52,7 +36,6 @@
         "format-full": "{icon} {capacity}%",
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
-        "format-alt": "{icon} {time}",
         "format-icons": [" ", " ", " ", " ", " "],
         "tooltip-format": "{time}",
         "interval": 1,
@@ -69,7 +52,6 @@
         "format-full": "{icon} {capacity}%",
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
-        "format-alt": "{icon} {time}",
         "format-icons": [" ", " ", " ", " ", " "],
         "tooltip-format": "{time}",
         "interval": 1,

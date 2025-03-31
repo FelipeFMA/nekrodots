@@ -23,12 +23,16 @@
     },
     "power_mode": "performance",
     "gamma": 6500,
-    "last_active_tab": 1,
+    "last_active_tab": 0,
     "tab_order": [
         "Wi-Fi",
         "Volume",
         "Bluetooth",
         "Display",
         "Battery"
-    ]
+    ],
+    "window_size": {
+        "settings_width": 400,
+        "settings_height": 450
+    }
 }
