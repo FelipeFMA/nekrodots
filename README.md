@@ -75,11 +75,11 @@
 # Clone the repository
 git clone https://github.com/yourusername/nekrodots-hyprland.git
 
-# Navigate to the repository
-cd nekrodots-hyprland
+# Navigate to the repository configurations
+cd nekrodots-hyprland/config
 
-# Run the installation script (requires Arch Linux)
-./packages.sh
+# Copy it all to your ~/.config
+cp * ~/.config -r
 ```
 
 ---
