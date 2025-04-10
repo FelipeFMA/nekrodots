@@ -1,4 +1,4 @@
-theme = "base16_default"
+theme = "gruvbox"
 
 [editor.cursor-shape]
 insert = "bar"

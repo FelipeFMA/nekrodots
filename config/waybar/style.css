@@ -4,22 +4,22 @@
 }
 
 window#waybar {
-  background-color: rgba(27, 27, 27, 0.9);
+  background-color: rgba(40, 40, 40, 0.9);
 }
 
 #workspaces button:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(169, 182, 101, 0.2);
   border-radius: 7px;
 }
 
 #workspaces button.active {
-  background-color: #ffffff;
-  color: #1b1b1b;
+  background-color: #a9b665;
+  color: #282828;
   border-radius: 7px;
 }
 
 #workspaces button.urgent {
-  background-color: #ff7674;
+  background-color: #ea6962;
 }
 
 #clock,
@@ -29,5 +29,5 @@ window#waybar {
 #network,
 #pulseaudio {
   padding: 0 10px;
-  color: #ffffff;
+  color: #d4be98;
 }
