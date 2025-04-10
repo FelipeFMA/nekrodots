@@ -1,13 +1,13 @@
 <div align="center">
 
 # nekrodots
-### *A Gruvbox-themed dotfiles collection*
+### *My Gruvbox-themed Arch Linux setup*
 
 </div>
 
 <p align="center">
 
-![image](https://github.com/user-attachments/assets/0f0ebdf2-cd64-485b-8f96-2313ea498606)
+![image](https://github.com/user-attachments/assets/986b724e-6ce6-4fd3-9b77-8db4848a49d3)
 
 </p>
 
@@ -102,20 +102,14 @@ config/
 
 ## <span style="color:#d4be98">🍄 Gruvbox Color Palette</span>
 
-This theme uses the following Gruvbox colors:
+This theme uses the following Gruvbox colors, sometimes the original gruvbox and sometimes the material one.
 
-| Color | Hex | Description |
-|-------|-----|-------------|
-| Background | `#282828` | Dark background for reduced eye strain |
-| Foreground | `#d4be98` | Warm text color that's easy to read |
-| Green | `#a9b665` | Accent color for highlights |
-| Red | `#ea6962` | Used for warnings and errors |
-| Yellow | `#d8a657` | Used for notifications and highlights |
-| Blue | `#7daea3` | Used for selections and links |
-| Purple | `#d3869b` | Used for special elements |
-| Aqua | `#89b482` | Used for success messages |
+Original:
+![gruvbox-original](https://github.com/user-attachments/assets/f3dd4f4b-e8ea-4f20-91b9-89cd6127deb4)
 
----
+Material:
+![gruvbox-material](https://github.com/user-attachments/assets/42736216-5f70-4356-96bd-c1fa04a783d1)
+
 
 ## <span style="color:#a9b665">🌾 Acknowledgments</span>
 
