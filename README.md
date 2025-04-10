@@ -59,10 +59,11 @@
 <br>
 
 ### Desktop
-![image](https://github.com/user-attachments/assets/d31f9b25-0e91-4438-b191-d1c205efc216)
+![image](https://github.com/user-attachments/assets/2b0790d8-1e1e-4f4c-826c-1acab80a6a27)
+
 
 ### Terminal
-![image](https://github.com/user-attachments/assets/4063e19a-a205-4ab8-a5cf-0e3404e5022d)
+![image](https://github.com/user-attachments/assets/709c561b-d442-4fba-9292-051eb8557348)
 
 </details>
 
