@@ -103,7 +103,7 @@ config/
 
 ## <span style="color:#f5c2e7">🌈 Catppuccin Color Palette</span>
 
-This theme uses the following Catppuccin colors, primarily the Mocha variant.
+This theme uses the following Catppuccin colors, the Mocha variant.
 
 <details>
 <summary>🌿 Mocha</summary>
@@ -301,9 +301,6 @@ This theme uses the following Catppuccin colors, primarily the Mocha variant.
 </details>
 
 <details>
-<summary>🌻 Latte</summary>
-
-![catppuccin-latte](https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/latte.png)
 </details>
 
 
