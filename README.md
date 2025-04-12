@@ -300,9 +300,6 @@ This theme uses the following Catppuccin colors, the Mocha variant.
 </table>
 </details>
 
-<details>
-</details>
-
 
 ## <span style="color:#b4befe">✨ Acknowledgments</span>
 
