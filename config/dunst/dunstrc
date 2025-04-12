@@ -2,8 +2,8 @@
 
 [global]
 
-    highlight = "#d4be98"
-    
+    highlight = "#cba6f7"
+
     ### Display ###
 
     # Which monitor should the notifications be displayed on.
@@ -114,7 +114,7 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#d4be98"
+    frame_color = "#cba6f7"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -147,7 +147,7 @@
 
     ### Text ###
 
-    font = Monospace 8
+    font = SF Pro 8
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -274,7 +274,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 7
+    corner_radius = 4
 
     # Define which corners to round when drawing the window. If the corner radius
     # is set to 0 this option will be ignored.
@@ -344,26 +344,26 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#282828"
-    foreground = "#d4be98"
-    frame_color = "#d4be98"
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    frame_color = "#cba6f7"
     timeout = 10
     # Icon for notifications with low urgency
     default_icon = dialog-information
 
 [urgency_normal]
-    background = "#282828"
-    foreground = "#d4be98"
-    frame_color = "#a9b665"
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    frame_color = "#cba6f7"
     timeout = 10
     override_pause_level = 30
     # Icon for notifications with normal urgency
     default_icon = dialog-information
 
 [urgency_critical]
-    background = "#282828"
-    foreground = "#d4be98"
-    frame_color = "#ea6962"
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    frame_color = "#f38ba8"
     timeout = 0
     override_pause_level = 60
     # Icon for notifications with critical urgency

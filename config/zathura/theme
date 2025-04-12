@@ -1,43 +1,43 @@
-set default-fg                rgba(212,190,152,1)     # gruvbox material fg
-set default-bg               rgba(40,40,40,1)         # gruvbox material bg
+set default-fg                rgba(205,214,244,1)     # catppuccin mocha text
+set default-bg               rgba(30,30,46,1)         # catppuccin mocha base
 
-set completion-bg            rgba(40,40,40,1)
-set completion-fg            rgba(212,190,152,1)
-set completion-highlight-bg  rgba(60,56,54,1)         # gruvbox material bg1
-set completion-highlight-fg  rgba(212,190,152,1)
-set completion-group-bg      rgba(40,40,40,1)
-set completion-group-fg      rgba(169,182,101,1)      # gruvbox material green
+set completion-bg            rgba(30,30,46,1)
+set completion-fg            rgba(205,214,244,1)
+set completion-highlight-bg  rgba(49,50,68,1)         # catppuccin mocha surface0
+set completion-highlight-fg  rgba(205,214,244,1)
+set completion-group-bg      rgba(30,30,46,1)
+set completion-group-fg      rgba(203,166,247,1)      # catppuccin mocha mauve
 
-set statusbar-fg            rgba(169,182,101,1)       # gruvbox material green
-set statusbar-bg            rgba(40,40,40,1)
+set statusbar-fg            rgba(203,166,247,1)       # catppuccin mocha mauve
+set statusbar-bg            rgba(30,30,46,1)
 
-set notification-bg         rgba(40,40,40,1)
-set notification-fg         rgba(212,190,152,1)
-set notification-error-bg   rgba(40,40,40,1)
-set notification-error-fg   rgba(234,105,98,1)        # gruvbox material red
-set notification-warning-bg rgba(40,40,40,1)
-set notification-warning-fg rgba(215,153,33,1)        # gruvbox material yellow
+set notification-bg         rgba(30,30,46,1)
+set notification-fg         rgba(205,214,244,1)
+set notification-error-bg   rgba(30,30,46,1)
+set notification-error-fg   rgba(243,139,168,1)        # catppuccin mocha red
+set notification-warning-bg rgba(30,30,46,1)
+set notification-warning-fg rgba(250,179,135,1)        # catppuccin mocha peach
 
-set inputbar-fg             rgba(212,190,152,1)
-set inputbar-bg            rgba(40,40,40,1)
+set inputbar-fg             rgba(205,214,244,1)
+set inputbar-bg            rgba(30,30,46,1)
 
 # Enable recolor by default for dark mode
 set recolor                "true"
 set recolor-keephue        "true"
-set recolor-lightcolor     rgba(40,40,40,1)
-set recolor-darkcolor      rgba(212,190,152,1)
+set recolor-lightcolor     rgba(30,30,46,1)
+set recolor-darkcolor      rgba(205,214,244,1)
 
-set index-fg               rgba(212,190,152,1)
-set index-bg               rgba(40,40,40,1)
-set index-active-fg        rgba(212,190,152,1)
-set index-active-bg        rgba(60,56,54,1)
+set index-fg               rgba(205,214,244,1)
+set index-bg               rgba(30,30,46,1)
+set index-active-fg        rgba(205,214,244,1)
+set index-active-bg        rgba(49,50,68,1)
 
-set render-loading-bg      rgba(40,40,40,1)
-set render-loading-fg      rgba(212,190,152,1)
+set render-loading-bg      rgba(30,30,46,1)
+set render-loading-fg      rgba(205,214,244,1)
 
-set highlight-color        rgba(169,182,101,0.5)      # gruvbox material green
-set highlight-fg           rgba(212,190,152,0.5)
-set highlight-active-color rgba(181,149,132,0.5)      # gruvbox material orange
+set highlight-color        rgba(203,166,247,0.5)      # catppuccin mocha mauve
+set highlight-fg           rgba(205,214,244,0.5)
+set highlight-active-color rgba(203,166,247,0.5)      # catppuccin mocha mauve
 
 # Use 'r' key to toggle between dark mode and normal mode for images
 map r recolor

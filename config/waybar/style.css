@@ -1,25 +1,25 @@
 * {
-  font-family: "SF Pro";
-  font-size: 13px;
+    font-family: "SF Pro";
+    font-size: 13px;
 }
 
 window#waybar {
-  background-color: rgba(40, 40, 40, 0.9);
+    background-color: rgba(30, 30, 46, 0.5);
 }
 
 #workspaces button:hover {
-  background: rgba(169, 182, 101, 0.2);
-  border-radius: 7px;
+    background: rgba(203, 166, 247, 0.2);
+    border-radius: 7px;
 }
 
 #workspaces button.active {
-  background-color: #a9b665;
-  color: #282828;
-  border-radius: 7px;
+    background-color: #cba6f7;
+    color: #1e1e2e;
+    border-radius: 4px;
 }
 
 #workspaces button.urgent {
-  background-color: #ea6962;
+    background-color: #f38ba8;
 }
 
 #clock,
@@ -28,6 +28,6 @@ window#waybar {
 #battery,
 #network,
 #pulseaudio {
-  padding: 0 10px;
-  color: #d4be98;
+    padding: 0 10px;
+    color: #cdd6f4;
 }

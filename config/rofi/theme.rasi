@@ -1,20 +1,20 @@
 * {
-    background:                  #282828;
+    background:                  #1e1e2e;
     background-color:            @background;
-    foreground:                  #d4be98;
-    border-color:                #d4be98;
-    selected-normal-background:  #3c3836;
+    foreground:                  #cdd6f4;
+    border-color:                #cba6f7;
+    selected-normal-background:  #313244;
     selected-normal-foreground:  @foreground;
-    selected-urgent-background:  #ea6962;
+    selected-urgent-background:  #f38ba8;
     selected-urgent-foreground:  @foreground;
-    selected-active-background:  #504945;
+    selected-active-background:  #45475a;
     selected-active-foreground:  @foreground;
     normal-background:           @background;
-    normal-foreground:           #d4be98;
+    normal-foreground:           #cdd6f4;
     urgent-background:           @background;
-    urgent-foreground:           #ea6962;
+    urgent-foreground:           #f38ba8;
     active-background:           @background;
-    active-foreground:           #a9b665;
+    active-foreground:           #cba6f7;
     alternate-normal-background: @background;
     alternate-normal-foreground: @normal-foreground;
     alternate-urgent-background: @urgent-background;
@@ -26,7 +26,7 @@
 window {
     background-color: @background;
     border:           2px;
-    border-radius:    7px;
+    border-radius:    4px;
     padding:          5;
 }
 
@@ -165,4 +165,4 @@ textbox-prompt-colon {
     str:        ":";
     margin:     0px 0.3em 0em 0em;
     text-color: @normal-foreground;
-} 
+}
