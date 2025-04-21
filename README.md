@@ -93,24 +93,24 @@ The configuration is organized in the `config/` directory:
 
 ```
 config/
-├── better-control/   # Better control configuration
-├── btop/             # System monitor configuration
-├── chrome-theme/     # Chrome browser theme
-├── dunst/            # Notification daemon
-├── fastfetch/        # System information tool
-├── fish/             # Fish shell configuration
-├── helix/            # Modal text editor configuration
-├── hypr/             # Hyprland configuration
-├── kitty/            # Terminal emulator
-├── mpv/              # Media player
-├── nemo/             # File manager
-├── rofi/             # Application launcher
-├── vlc/              # Media player
-├── waybar/           # Waybar setup and styling
-├── zathura/          # PDF viewer
-├── code-flags.conf   # VS Code flags
-├── electron-flags.conf # Electron flags
-└── spotify-flags.conf # Spotify flags
+├── better-control/      # Better control configuration
+├── btop/                # System monitor configuration
+├── chrome-theme/        # Chrome browser theme
+├── dunst/               # Notification daemon
+├── fastfetch/           # System information tool
+├── fish/                # Fish shell configuration
+├── helix/               # Modal text editor configuration
+├── hypr/                # Hyprland configuration
+├── kitty/               # Terminal emulator
+├── mpv/                 # Media player
+├── nemo/                # File manager
+├── rofi/                # Application launcher
+├── vlc/                 # Media player
+├── waybar/              # Waybar setup and styling
+├── zathura/             # PDF viewer
+├── code-flags.conf      # VS Code flags
+├── electron-flags.conf  # Electron flags
+└── spotify-flags.conf   # Spotify flags
 ```
 
 
