@@ -1,21 +1,21 @@
 <div align="center">
 
 # nekrodots
-### *My Catppuccin-themed Arch Linux setup*
+### *My Arch Linux setup*
 
 </div>
 
 <p align="center">
 
-![image](https://github.com/user-attachments/assets/693115d4-40c9-4ba3-bdfa-f2159d1c25b6)
+![image](https://github.com/user-attachments/assets/c8b5e9ca-2a34-41d3-a8ac-95ec02044ec7)
 
 </p>
 
 <div align="center">
 
-  ![Hyprland](https://img.shields.io/badge/Hyprland-1e1e2e?style=for-the-badge&logo=hyprland&logoColor=b4befe)
-  ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1e1e2e?style=for-the-badge&logo=arch-linux&logoColor=b4befe)
-  ![Waybar](https://img.shields.io/badge/Waybar-1e1e2e?style=for-the-badge&logoColor=b4befe)
+  ![Hyprland](https://img.shields.io/badge/Hyprland-1b1b1b?style=for-the-badge&logo=hyprland&logoColor=ffffff)
+  ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1b1b1b?style=for-the-badge&logo=arch-linux&logoColor=ffffff)
+  ![Waybar](https://img.shields.io/badge/Waybar-1b1b1b?style=for-the-badge&logoColor=ffffff)
 
 </div>
 
@@ -52,7 +52,7 @@
 
 ---
 
-## <span style="color:#c9cbff">🦋 Screenshots</span>
+## 🦋 Screenshots
 
 <details>
 <summary>Click to expand screenshots</summary>
