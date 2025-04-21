@@ -1,25 +1,25 @@
 * {
-    font-family: "SF Pro";
-    font-size: 13px;
+  font-family: "SF Pro";
+  font-size: 13px;
 }
 
 window#waybar {
-    background-color: rgba(30, 30, 46, 0.5);
+  background-color: #181818;
+  color: #ffffff;
 }
 
-#workspaces button:hover {
-    background: rgba(203, 166, 247, 0.2);
-    border-radius: 7px;
+#workspaces button {
+  color: #ffffff;
 }
 
 #workspaces button.active {
-    background-color: #cba6f7;
-    color: #1e1e2e;
-    border-radius: 4px;
+  background-color: #ffffff;
+  color: #1b1b1b;
+  border-radius: 4px;
 }
 
 #workspaces button.urgent {
-    background-color: #f38ba8;
+  background-color: #fb4934;
 }
 
 #clock,
@@ -28,6 +28,26 @@ window#waybar {
 #battery,
 #network,
 #pulseaudio {
-    padding: 0 10px;
-    color: #cdd6f4;
+  padding: 0 10px;
+  color: #ffffff;
+}
+
+#battery.charging {
+  color: #00bb13;
+}
+
+#battery.warning:not(.charging) {
+  color: #ffb300;
+}
+
+#battery.critical:not(.charging) {
+  color: #d11500;
+}
+
+#network.disconnected {
+  color: #c10000;
+}
+
+#pulseaudio.muted {
+  color: #a8a8a8;
 }

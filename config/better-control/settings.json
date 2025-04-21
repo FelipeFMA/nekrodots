@@ -1,0 +1,38 @@
+{
+    "visibility": {
+        "Volume": true,
+        "Wi-Fi": true,
+        "Bluetooth": true,
+        "Battery": true,
+        "Display": true,
+        "Autostart": true,
+        "USBGuard": false
+    },
+    "positions": {
+        "Wi-Fi": 0,
+        "Bluetooth": 1,
+        "Volume": 2,
+        "Display": 3,
+        "Battery": 4,
+        "Settings": 5
+    },
+    "power_mode": "performance",
+    "gamma": 3500,
+    "last_active_tab": 3,
+    "tab_order": [
+        "Wi-Fi",
+        "Volume",
+        "Bluetooth",
+        "Display",
+        "Battery",
+        "Power",
+        "Autostart",
+        "USBGuard"
+    ],
+    "window_size": {
+        "settings_width": 400,
+        "settings_height": 450
+    },
+    "language": "default",
+    "usbguard_hidden_devices": []
+}

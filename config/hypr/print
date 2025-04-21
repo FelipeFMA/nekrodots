@@ -21,7 +21,7 @@ make_screenshot() {
             return 0
             ;;
         region)
-            grim -g "$(slurp -b '#1E1E2EAF' -c '#CBA6F7' -s '#00000000' -w 3 -d)" "$2"
+            grim -g "$(slurp -b '#282828AF' -c '#d65d0e' -s '#00000000' -w 3 -d)" "$2"
             ;;
         *)
             # Capture the entire focused output

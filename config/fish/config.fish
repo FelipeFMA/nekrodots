@@ -4,4 +4,7 @@ if status is-interactive
     sh -c echo
     sh -c 'fastfetch -l small'
     sh -c echo
+    sh -c /home/felipe/Documents/Github/ISORememberer/rememberer.sh
 end
+
+fish_add_path /home/felipe/.spicetify
