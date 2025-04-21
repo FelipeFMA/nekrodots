@@ -62,11 +62,11 @@
 <br>
 
 ### Desktop
-![image](https://github.com/user-attachments/assets/2b0790d8-1e1e-4f4c-826c-1acab80a6a27)
+![desktop](https://github.com/user-attachments/assets/c054fd41-887c-483d-9621-6547f99e20f5)
 
 
 ### Terminal
-![image](https://github.com/user-attachments/assets/709c561b-d442-4fba-9292-051eb8557348)
+![terminal](https://github.com/user-attachments/assets/8cf73059-5a51-43a7-b1ee-054df3d4eed1)
 
 </details>
 
