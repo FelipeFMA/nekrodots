@@ -132,7 +132,6 @@ This theme uses a simple monochromatic color scheme:
 
 - Thanks to the Hyprland community
 - All creators of the tools used in this configuration
-- Special thanks to minimalist design principles
 
 ---
 
