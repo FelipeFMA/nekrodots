@@ -56,7 +56,7 @@
     ],
     "tooltip-format": "{time}",
     "interval": 1,
-    "on-click": "/home/felipe/Documents/Github/ultimate-control/build/ultimate-control -p"
+    "on-click": "control -p"
   },
   "battery#bat1": {
     "bat": "BAT1",
@@ -78,7 +78,7 @@
     ],
     "tooltip-format": "{time}",
     "interval": 1,
-    "on-click": "/home/felipe/Documents/Github/ultimate-control/build/ultimate-control -p"
+    "on-click": "control -p"
   },
   "battery#bat2": {
     "bat": "BAT2"
@@ -89,7 +89,7 @@
     "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
     "format-linked": "  {ifname} (No IP)",
     "format-disconnected": "  Disconnected",
-    "on-click": "/home/felipe/Documents/Github/ultimate-control/build/ultimate-control -w"
+    "on-click": "control -w"
   },
   "pulseaudio": {
     "scroll-step": 5,
@@ -110,12 +110,12 @@
         "  "
       ]
     },
-    "on-click": "/home/felipe/Documents/Github/ultimate-control/build/ultimate-control -v"
+    "on-click": "control -v"
   },
   "bluetooth": {
     "format": " On",
     "format-disabled": "󰂲 Off",
     "format-connected": "󰂱 Connected",
-    "on-click": "/home/felipe/Documents/Github/ultimate-control/build/ultimate-control -b"
+    "on-click": "control -b"
   }
 }

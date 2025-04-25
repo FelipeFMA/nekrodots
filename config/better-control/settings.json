@@ -6,7 +6,7 @@
         "Battery": true,
         "Display": true,
         "Autostart": true,
-        "USBGuard": false
+        "USBGuard": true
     },
     "positions": {
         "Wi-Fi": 0,
@@ -34,5 +34,7 @@
         "settings_height": 450
     },
     "language": "default",
-    "usbguard_hidden_devices": []
+    "usbguard_hidden_devices": [],
+    "vertical_tabs": false,
+    "vertical_tabs_icon_only": false
 }

@@ -1,0 +1,8 @@
+# Ultimate Control Tab Settings
+tab_order=volume,display,wifi,bluetooth,power,settings
+tab_bluetooth=1
+tab_display=1
+tab_power=1
+tab_settings=1
+tab_volume=1
+tab_wifi=1

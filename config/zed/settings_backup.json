@@ -1,0 +1,100 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "icon_theme": "Min Icons",
+  "edit_predictions": {
+    "disabled_globs": [],
+    "mode": "eager",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_assistant": true
+  },
+  "terminal": {
+    "dock": "bottom",
+    "font_family": "SF Mono"
+  },
+  "assistant": {
+    "profiles": {
+      "ask": {
+        "name": "Ask",
+        "tools": {
+          "batch_tool": true,
+          "code_actions": true,
+          "code_symbols": true,
+          "copy_path": true,
+          "create_directory": true,
+          "delete_path": true,
+          "find_replace_file": true,
+          "move_path": true,
+          "open": true,
+          "rename": true,
+          "symbol_info": true,
+          "terminal": true,
+          "contents": true,
+          "diagnostics": true,
+          "fetch": true,
+          "list_directory": true,
+          "now": true,
+          "path_search": true,
+          "read_file": true,
+          "regex_search": true,
+          "thinking": true,
+          "create_file": true
+        },
+        "enable_all_context_servers": false,
+        "context_servers": {}
+      }
+    },
+    "default_profile": "write",
+    "inline_assistant_model": {
+      "provider": "openai",
+      "model": "google/gemini-2.0-flash-exp:free"
+    },
+    "default_model": {
+      "provider": "openai",
+      "model": "google/gemini-2.0-flash-exp:free"
+    },
+    "version": "2"
+  },
+  "features": {
+    "edit_prediction_provider": "supermaven"
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+  "buffer_font_size": 13,
+  "buffer_font_family": "SF Mono",
+  "ui_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "macOS Classic Dark2"
+  },
+  "language_models": {
+    "openai": {
+      "api_url": "https://openrouter.ai/api/v1",
+      "available_models": [
+        {
+          "name": "mistralai/mistral-7b-instruct:free",
+          "display_name": "mistral",
+          "max_tokens": 1000000
+        },
+        {
+          "name": "google/gemini-2.0-flash-exp:free",
+          "display_name": "gemini 2.0 flash",
+          "max_tokens": 1000000
+        }
+      ],
+      "version": "1"
+    }
+  }
+}
