@@ -2,6 +2,9 @@ configuration {
 	font: "SF Pro 9";
 	show-icons: true;
 	icon-size: 80px;
+	display-drun: "🔍";
+	display-clipboard: "📋";
+	display-dmenu: "⚡";
 }
 
 @theme "./theme.rasi"

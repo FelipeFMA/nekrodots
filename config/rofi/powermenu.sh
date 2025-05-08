@@ -1,15 +1,15 @@
 #!/bin/bash
 
-CHOICE=$(echo -e "   Suspend\n   Shutdown\n   Reboot" | rofi -dmenu)
+CHOICE=$(echo -e "󰤄  Suspend\n󰐥  Shutdown\n󰜉  Reboot" | rofi -dmenu -p "⚡")
 
 case $CHOICE in
-"   Suspend")
+"󰤄  Suspend")
 systemctl suspend
 ;;
-"   Shutdown")
+"󰐥  Shutdown")
 systemctl poweroff
 ;;
-"   Reboot")
+"󰜉  Reboot")
 systemctl reboot
 ;;
 *)

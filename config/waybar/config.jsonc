@@ -1,25 +1,13 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 30,
+  "height": 26,
   "spacing": 4,
-  "modules-left": [
-    "hyprland/workspaces",
-    "sway/mode",
-    "battery",
-    "battery#bat1"
-  ],
-  "modules-center": [
-    "clock"
-  ],
-  "modules-right": [
-    "tray",
-    "pulseaudio",
-    "network",
-    "bluetooth"
-  ],
+  "modules-left": ["hyprland/workspaces", "sway/mode", "battery", "battery#bat1"],
+  "modules-center": ["clock"],
+  "modules-right": ["tray", "pulseaudio", "network", "bluetooth"],
   "tray": {
-    "spacing": 10
+    "spacing": 10,
   },
   "clock": {
     "format": "{:%I:%M %p}",
@@ -32,56 +20,44 @@
         "months": "<span color='#cecece'><b>{}</b></span>",
         "days": "<span color='#dadada'><b>{}</b></span>",
         "weekdays": "<span color='#cecece'><b>{}</b></span>",
-        "today": "<span color='#ffffff'><b><u>{}</u></b></span>"
-      }
-    }
+        "today": "<span color='#ffffff'><b><u>{}</u></b></span>",
+      },
+    },
   },
   "battery": {
     "bat": "BAT0",
     "states": {
       "good": 95,
       "warning": 30,
-      "critical": 15
+      "critical": 15,
     },
     "format": "{icon} {capacity}%",
     "format-full": "{icon} {capacity}%",
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
-    "format-icons": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
-    ],
+    "format-icons": [" ", " ", " ", " ", " "],
     "tooltip-format": "{time}",
     "interval": 1,
-    "on-click": "control -p"
+    "on-click": "control -p",
   },
   "battery#bat1": {
     "bat": "BAT1",
     "states": {
       "good": 95,
       "warning": 30,
-      "critical": 15
+      "critical": 15,
     },
     "format": "{icon} {capacity}%",
     "format-full": "{icon} {capacity}%",
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
-    "format-icons": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
-    ],
+    "format-icons": [" ", " ", " ", " ", " "],
     "tooltip-format": "{time}",
     "interval": 1,
-    "on-click": "control -p"
+    "on-click": "control -p",
   },
   "battery#bat2": {
-    "bat": "BAT2"
+    "bat": "BAT2",
   },
   "network": {
     "format-wifi": "   {essid} ({signalStrength}%)",
@@ -89,7 +65,7 @@
     "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
     "format-linked": "  {ifname} (No IP)",
     "format-disconnected": "  Disconnected",
-    "on-click": "control -w"
+    "on-click": "control -w",
   },
   "pulseaudio": {
     "scroll-step": 5,
@@ -104,18 +80,14 @@
       "phone": " ",
       "portable": " ",
       "car": " ",
-      "default": [
-        "",
-        " ",
-        "  "
-      ]
+      "default": ["", " ", "  "],
     },
-    "on-click": "control -v"
+    "on-click": "control -v",
   },
   "bluetooth": {
     "format": " On",
     "format-disabled": "󰂲 Off",
     "format-connected": "󰂱 Connected",
-    "on-click": "control -b"
-  }
+    "on-click": "control -b",
+  },
 }

@@ -4,12 +4,24 @@
 }
 
 window#waybar {
-  background-color: rgba(24, 24, 24, 0.5);
+  background-color: #1b1b1b;
   color: #ffffff;
+  border-radius: 0px;
+  margin: 0;
+  border: none;
+}
+
+#workspaces {
+  margin: 0px 1px;
+  border: none;
 }
 
 #workspaces button {
   color: #ffffff;
+  border-radius: 4px;
+  padding: 0 5px;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 #workspaces button.active {
@@ -20,6 +32,7 @@ window#waybar {
 
 #workspaces button.urgent {
   background-color: #fb4934;
+  border-radius: 4px;
 }
 
 #clock,

@@ -36,5 +36,6 @@
     "language": "default",
     "usbguard_hidden_devices": [],
     "vertical_tabs": false,
-    "vertical_tabs_icon_only": false
+    "vertical_tabs_icon_only": false,
+    "battery_charge_limit": 100
 }
