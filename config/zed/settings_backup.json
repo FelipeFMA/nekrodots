@@ -7,7 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Min Icons",
+  "theme": "macOS Classic Dark2",
   "edit_predictions": {
     "disabled_globs": [],
     "mode": "eager",
@@ -22,6 +22,7 @@
     "font_family": "SF Mono"
   },
   "assistant": {
+    "always_allow_tool_actions": true,
     "profiles": {
       "ask": {
         "name": "Ask",
@@ -32,7 +33,7 @@
           "copy_path": true,
           "create_directory": true,
           "delete_path": true,
-          "find_replace_file": true,
+          "edit_file": true,
           "move_path": true,
           "open": true,
           "rename": true,
@@ -45,7 +46,7 @@
           "now": true,
           "path_search": true,
           "read_file": true,
-          "regex_search": true,
+          "grep": true,
           "thinking": true,
           "create_file": true
         },
@@ -74,11 +75,6 @@
   "buffer_font_size": 13,
   "buffer_font_family": "SF Mono",
   "ui_font_size": 15,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "macOS Classic Dark2"
-  },
   "language_models": {
     "openai": {
       "api_url": "https://openrouter.ai/api/v1",

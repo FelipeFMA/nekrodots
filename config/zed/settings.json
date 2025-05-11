@@ -7,7 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Min Icons",
+  "theme": "macOS Classic Dark2",
   "edit_predictions": {
     "disabled_globs": [],
     "mode": "eager",
@@ -15,13 +15,14 @@
       "proxy": null,
       "proxy_no_verify": null
     },
-    "enabled_in_assistant": true
+    "enabled_in_text_threads": true
   },
   "terminal": {
     "dock": "bottom",
     "font_family": "SF Mono"
   },
-  "assistant": {
+  "agent": {
+    "always_allow_tool_actions": true,
     "profiles": {
       "ask": {
         "name": "Ask",
@@ -43,7 +44,7 @@
           "fetch": true,
           "list_directory": true,
           "now": true,
-          "path_search": true,
+          "find_path": true,
           "read_file": true,
           "grep": true,
           "thinking": true,
@@ -53,7 +54,7 @@
         "context_servers": {}
       }
     },
-    "default_profile": "ask",
+    "default_profile": "write",
     "inline_assistant_model": {
       "provider": "openai",
       "model": "google/gemini-2.0-flash-exp:free"
@@ -74,11 +75,6 @@
   "buffer_font_size": 13,
   "buffer_font_family": "SF Mono",
   "ui_font_size": 15,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "macOS Classic Dark2"
-  },
   "language_models": {
     "openai": {
       "api_url": "https://openrouter.ai/api/v1",
