@@ -7,7 +7,7 @@
 
 <p align="center">
 
-![image](https://github.com/user-attachments/assets/c8b5e9ca-2a34-41d3-a8ac-95ec02044ec7)
+![image](https://github.com/user-attachments/assets/faede81f-1238-417f-bca5-001b8fb6305b)
 
 </p>
 
@@ -62,11 +62,11 @@
 <br>
 
 ### Desktop
-![desktop](https://github.com/user-attachments/assets/c054fd41-887c-483d-9621-6547f99e20f5)
+![image](https://github.com/user-attachments/assets/6d910989-9abc-413c-8be1-22986fc090c2)
 
 
 ### Terminal
-![terminal](https://github.com/user-attachments/assets/8cf73059-5a51-43a7-b1ee-054df3d4eed1)
+![image](https://github.com/user-attachments/assets/225567ba-d194-4c3a-8750-1969a7dc1be6)
 
 </details>
 
